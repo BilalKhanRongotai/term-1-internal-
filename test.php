@@ -1,2 +1,3 @@
 <?php
-include ('Includes>Footer.php');?>
+include ('header.php');
+?>
