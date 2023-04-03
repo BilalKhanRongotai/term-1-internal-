@@ -18,6 +18,7 @@
 <html>
 
 <body>
+
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
   
@@ -29,19 +30,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="menu.php">Menu</a>
+          <a class="nav-link" href="menu.php" style="color:white">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About Us</a>
+          <a class="nav-link" href="aboutus.php" style="color:white">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contactus.php">Contact Us</a>
+          <a class="nav-link" href="contactus.php" style="color:white">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="gallery.php">Gallery</a>
+          <a class="nav-link" href="gallery.php" style="color:white">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="gallery.php">Gallery</a>
+          <a class="nav-link" href="gallery.php" style="color:white">Gallery</a>
         </li>
       </ul>
     </div>
