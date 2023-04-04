@@ -22,7 +22,8 @@
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid bg-dark">
   
-  <img src="image/logo.png" style="width:70px;height:80px;"  href="test.php" alt="KanYe">
+  <a href="#"><img src="image/logo.png" style="width:70px;height:80px;" alt="home"></a>
+
    <!-- <a class="navbar-brand" href="#">Kanye West</a>-->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,19 +31,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="menu.php" style="color:white">Menu</a>
+          <a class="nav-link" href="#" style="color:white">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutus.php" style="color:white">About Us</a>
+          <a class="nav-link" href="#" style="color:white">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contactus.php" style="color:white">Contact Us</a>
+          <a class="nav-link" href="#" style="color:white">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="gallery.php" style="color:white">Gallery</a>
+          <a class="nav-link" href="#" style="color:white">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="gallery.php" style="color:white">Gallery</a>
+          <a class="nav-link" href="#" style="color:white">Gallery</a>
         </li>
       </ul>
     </div>
