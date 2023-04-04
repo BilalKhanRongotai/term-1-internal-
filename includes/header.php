@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?php echo $page_title ?></title>
     <!--- Link to Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <!--- Link to Bootstrap JavaScript -->
@@ -20,7 +20,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
+  <div class="container-fluid bg-dark">
   
   <img src="image/logo.png" style="width:70px;height:80px;"  href="test.php" alt="KanYe">
    <!-- <a class="navbar-brand" href="#">Kanye West</a>-->

@@ -1,12 +1,15 @@
-.container-fluid{
-    background-color: black;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.title {
+    font-size: 110px;
 }
 
-#title{
-    position: absolute;
-    bottom: 10%;
-    left: 5%;
-    z-index: 20;
+.reverse-colour{
     color: white;
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    mix-blend-mode: difference;
 }
