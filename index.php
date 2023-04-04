@@ -3,27 +3,36 @@
 $page_title= "Kanye West";
 include 'includes/header.php';
 ?>
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="image/Carousel-1.jpg" alt="First slide">
+      <img src="image/Carousel-1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="image/Carousel-2.jpg" alt="Second slide">
+      <img src="image/Carousel-2.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide">
+      <img src="image/Carousel-3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/Carousel-4.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/Carousel-5.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image/Carousel-6.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
-  <a class="carousel-control-prev reverse-colour" href="#carouselExampleControls" role="button" data-slide="prev">
+  <button class="carousel-control-prev reverse-colour" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next reverse-colour" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next reverse-colour" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-     <h1 class="centered title reverse-colour">KANYE WEST</h1>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <h1 class="title centered reverse-colour">KANYE WEST</h1> 
 </div>
 <?php
 include 'includes/footer.php';
