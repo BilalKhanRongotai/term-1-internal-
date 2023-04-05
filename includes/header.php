@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!-- Link to CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 <!DOCTYPE html>
 <html>
@@ -31,19 +32,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color:white">Menu</a>
+          <a class="nav-link" href="#" style="color:white"><h5>Menu</h5></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color:white">About Us</a>
+          <a class="nav-link" href="#" style="color:white"><h5>About Us</h5></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color:white">Contact Us</a>
+          <a class="nav-link" href="#" style="color:white"><h5>Contact Us</h5></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color:white">Gallery</a>
+          <a class="nav-link" href="#" style="color:white"><h5>Gallery</h5></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color:white">Gallery</a>
+          <a class="nav-link" href="#" style="color:white"><h5>Gallery</h5></a>
         </li>
       </ul>
     </div>
