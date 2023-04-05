@@ -15,6 +15,4 @@
     <link rel="stylesheet" href="css/style.css">
     <script>src="script.js"</script>
 </head>
-
 <body>
-
