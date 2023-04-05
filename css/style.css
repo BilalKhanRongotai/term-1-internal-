@@ -13,3 +13,7 @@
     color: white;
     mix-blend-mode:difference;
 }
+
+.no-padding{
+    padding: 0;
+}
