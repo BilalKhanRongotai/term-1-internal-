@@ -1,33 +1,33 @@
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="2000">
+    <div class="carousel-item active" data-bs-interval="3000">
       <img src="image/Carousel1.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item" data-bs-interval="3000">
       <img src="image/Carousel2.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item" data-bs-interval="3000">
       <img src="image/Carousel3.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item" data-bs-interval="3000">
       <img src="image/Carousel4.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item" data-bs-interval="3000">
       <img src="image/Carousel5.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item" data-bs-interval="3000">
       <img src="image/Carousel6.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item" data-bs-interval="3000">
       <img src="image/Carousel7.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item" data-bs-interval="3000">
       <img src="image/Carousel8.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item" data-bs-interval="3000">
       <img src="image/Carousel9.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item" data-bs-interval="3000">
       <img src="image/Carousel10.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
