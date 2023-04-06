@@ -5,8 +5,8 @@ include 'includes/header.php';
 include 'includes/nav.php';
 include 'includes/carousel.php';
 ?>
-
-<p class="off-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere, eum porro aperiam eaque qui, nam similique illum voluptate magnam, reiciendis totam soluta animi numquam recusandae dolores ab maxime nihil.</p>
+<br>
+<h2 class="white centered underlined">The website for all things Kanye West</h2>
 
 <!-- Call up the footer-->
 <?php

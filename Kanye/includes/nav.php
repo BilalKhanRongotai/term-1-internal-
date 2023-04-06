@@ -26,6 +26,11 @@
         </li>
       </ul>
     </div>
+    <div class="collapse navbar-collapse position-absolute top-25 end-0" id="navbarNav">
+      <ul class="navbar-nav">
+      <i class="nav-link fa-regular fa-user" href="#"></i>
+      </ul>
+    </div>
   </div>
   
 </nav>
