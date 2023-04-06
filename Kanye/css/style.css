@@ -1,3 +1,4 @@
+/* center text */
 .centered {
     position: absolute;
     top: 50%;
@@ -5,15 +6,22 @@
     transform: translate(-50%, -50%);
   }
 
+/* title font size */
 .title {
     font-size: 110px;
 }
 
+/* reverse colour effect */
 .reverse-colour{
     color: white;
     mix-blend-mode:difference;
 }
 
+/* remove padding */
 .no-padding{
     padding: 0;
+}
+
+.off-white{
+    color: white;
 }
