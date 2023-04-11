@@ -1,3 +1,8 @@
+/* hide horizontal scroll bars */
+body {
+    overflow-x: hidden;
+}
+
 /* center text on an image */
 .image-centered {
     position: absolute;
@@ -39,8 +44,8 @@
 
 /* position cards */
 .card-left{
-    margin-left: 50px;
+    margin-left: 10px;
 }
 .card-right{
-    right: 0;
+    margin-right: 10px;
 }
