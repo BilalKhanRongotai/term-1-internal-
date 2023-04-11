@@ -28,7 +28,12 @@
     </div>
     <div class="collapse navbar-collapse position-absolute top-25 end-0" id="navbarNav">
       <ul class="navbar-nav">
-      <i class="nav-link fa-regular fa-user" href="#"></i>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="font-size:30px;color:white"><i class="fas fa-shopping-cart"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="font-size:30px;color:white"><i class="fas fa-user"></i></a>
+        </li>
       </ul>
     </div>
   </div>
