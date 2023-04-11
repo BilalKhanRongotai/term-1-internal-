@@ -27,17 +27,20 @@
     color: white;
 }
 
-/* align navbar elements to the right */
-.nav-right{
-    float:right;
-}
-
 /* center text */
 .centered{
     text-align: center;
 }
 
-/* style h2 */
+/* underline text */
 .underlined{
     text-decoration: underline;
+}
+
+/* position cards */
+.card-left{
+    margin-left: 50px;
+}
+.card-right{
+    right: 0;
 }
