@@ -54,3 +54,13 @@ body {
 .margin-left{
     margin-left: 10px;
 }
+
+/* make elements grow on hover */
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+.grow:hover { 
+    transform: scale(1.075); 
+}
+    
