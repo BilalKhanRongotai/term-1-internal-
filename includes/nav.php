@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg bg-light no-padding">
-  <div class="container-fluid bg-dark">
-  
-  <a href="#"><img src="image/logo.png" style="width:70px;height:80px;" alt="home"></a>
+<nav class="navbar navbar-expand-lg no-padding">
+  <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.2);">
+
+  <a href="index.php"><img src="image/logo.png" style="width:70px;height:80px;" alt="home"></a>
 
    <!-- <a class="navbar-brand" href="#">Kanye West</a>-->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color:white">Music</a>
+          <a class="nav-link" href="music.php" style="color:white">Music</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" style="color:white">Fashion</a>

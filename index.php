@@ -1,6 +1,6 @@
 <!-- Call up the header, navbar, and carousel-->
 <?php
-$page_title= "Kanye West│Home";
+$page_title= "Home";
 include 'includes/header.php';
 include 'includes/nav.php';
 include 'includes/carousel.php';
@@ -16,7 +16,7 @@ include 'includes/carousel.php';
       <div class="card-body">
         <h5 class="card-title">Hip Hop</h5>
         <p class="card-text">Kanye West has an amazing and extensive discography of groundbreaking mucsic. Over the years Ye has released many influencial albums that have changed the hip hop industry forever. Here you can see all of his albums and songs.</p>
-        <a href="#" class="btn btn-dark">Music</a>
+        <a href="music.php" class="btn btn-dark">Music</a>
       </div>
     </div>
   </div>

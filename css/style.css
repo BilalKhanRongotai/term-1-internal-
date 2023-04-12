@@ -49,3 +49,8 @@ body {
 .card-right{
     margin-right: 10px;
 }
+
+/* margin */
+.margin-left{
+    margin-left: 10px;
+}
