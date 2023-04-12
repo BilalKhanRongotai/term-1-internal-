@@ -63,4 +63,17 @@ body {
 .grow:hover { 
     transform: scale(1.075); 
 }
-    
+
+/* split */
+.left{
+    background-color: blue;
+}
+
+.right{
+    background-color: red;
+}
+
+.recordcover{
+    max-width:50%; 
+    margin:20px; 
+}
