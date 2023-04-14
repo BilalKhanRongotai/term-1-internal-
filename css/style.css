@@ -9,7 +9,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
+
 
 /* title font size */
 .title {
@@ -65,15 +66,62 @@ body {
 }
 
 /* split */
+.z50{
+    z-index: 500;
+    position: relative;
+}
+
 .left{
     background-color: blue;
+    max-width: 50%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 .right{
     background-color: red;
+    max-width: 50%;
+    position: relative;
+    left: 50%;
+    right: 50%;
 }
 
-.recordcover{
+.albumcover{
     max-width:50%; 
-    margin:20px;
+    margin:auto;
+}
+
+.albumtitle{
+    text-align: center;
+    color: black;
+}
+
+.albumdesc{
+    text-align: center;
+    color: black;
+}
+
+.albumtrack{
+    background-color: red;
+    border-color: black;
+}
+
+.icon{
+    float: right;
+    margin-left: 5px;
+}
+
+.artist{
+    color: rgba(0, 0, 0, 0.500);
+}
+
+.left0{
+    height: 90px;
+}
+
+.left1{
+    width: 100%;
 }
