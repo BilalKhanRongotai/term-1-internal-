@@ -15,7 +15,7 @@ include 'includes/nav.php';
                 <iframe class="video" id="video-player" width="240px" height="240px" frameborder="0"></iframe> 
 
                  <!-- div for song lyrics -->
-                <div id="LyricsContainer" style="display: none; overflow: scroll; max-height:205px; background-color:blueviolet; padding-left: 20px; padding-top: 10px;">  
+                <div id="LyricsContainer" style="display: none; max-height:205px; background-color:blueviolet; padding-left: 20px; padding-top: 10px;">  
                 </div>
 
             </div>

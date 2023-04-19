@@ -157,8 +157,14 @@ body {
 
 #LyricsContainer{
     display: none; 
-    overflow: scroll; 
+    overflow-y: scroll;
+    overflow-x: hidden;
     max-height:200px; 
     padding-left: 20px; 
     padding-top: 10px;
 }
+
+pre {
+    white-space: pre-wrap;
+    overflow: auto;
+  }
