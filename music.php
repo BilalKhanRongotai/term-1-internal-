@@ -11,58 +11,58 @@ include 'includes/nav.php';
 <div class="container" style="max-width:93%;">
   <div class="row">
     <div class="col grow">
-    <img src="image/TCDcover.webp" role="button" href="#" class="img-fluid" alt="Image could not load">
+    <a href=""><img src="image/TCDcover.webp" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <img src="image/LRcover.jpg" role="button" href="#" class="img-fluid" alt="Image could not load">
+    <a href=""><img src="image/LRcover.jpg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <img src="image/GraduationCover.jpg" role="button" href="#" class="img-fluid" alt="Image could not load">
-    </div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col grow">
-    <img src="image/808sCover.jpeg" role="button" href="#" class="img-fluid" alt="Image could not load">
-    </div>
-    <div class="col grow">
-    <img src="image/MBDTFcover.jpeg" role="button" href="#" class="img-fluid" alt="Image could not load">
-    </div>
-    <div class="col grow">
-    <img src="image/WTTcover.jpeg" role="button" href="#" class="img-fluid" alt="Image could not load">
+    <a href=""><img src="image/GraduationCover.jpg" class="img-fluid" alt="Image could not load"></a>
     </div>
   </div>
   <br>
   <div class="row">
     <div class="col grow">
-    <img src="image/KWPGMCScover.jpeg" role="button" href="#" class="img-fluid" alt="Image could not load">
+    <a href=""><img src="image/808sCover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <img src="image/YeezusCover.jpeg" role="button" href="#" class="img-fluid" alt="Image could not load">
+    <a href=""><img src="image/MBDTFcover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <img src="image/TLOPcover.jpeg" role="button" href="#" class="img-fluid" alt="Image could not load">
-    </div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col grow">
-    <img src="image/YeCover.jpeg" role="button" href="#" class="img-fluid" alt="Image could not load">
-    </div>
-    <div class="col grow">
-    <img src="image/KSGcover.jpeg" role="button" href="#" class="img-fluid" alt="Image could not load">
-    </div>
-    <div class="col grow">
-    <img src="image/JIKcover.jpeg" role="button" href="#" class="img-fluid" alt="Image could not load">
+    <a href=""><img src="image/WTTcover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
   </div>
   <br>
   <div class="row">
     <div class="col grow">
-    <img src="image/DondaCover.jpeg" role="button" href="#" class="img-fluid" alt="Image could not load">
+    <a href=""><img src="image/KWPGMCScover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <img src="image/Donda2Cover.webp" role="button" href="#" class="img-fluid" alt="Image could not load">
+    <a href=""><img src="image/YeezusCover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    </div>
+    <div class="col grow">
+    <a href=""><img src="image/TLOPcover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col grow">
+    <a href=""><img src="image/YeCover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    </div>
+    <div class="col grow">
+    <a href=""><img src="image/KSGcover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    </div>
+    <div class="col grow">
+    <a href=""><img src="image/JIKcover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col grow">
+    <a href=""><img src="image/DondaCover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    </div>
+    <div class="col grow">
+    <a href=""><img src="image/Donda2Cover.webp" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col"></div>
   </div>
