@@ -72,17 +72,17 @@ body {
 }
 
 .left{
-    background-color: blue;
     max-width: 50%;
     position: fixed;
     top: 0px;
     left: 0;
     bottom: 0;
     z-index: 1;
+    padding: 0;
+    margin: 0;
 }
 
 .right{
-    background-color: red;
     max-width: 50%;
     position: relative;
     left: 50%;
@@ -105,7 +105,6 @@ body {
 }
 
 .albumtrack{
-    background-color: red;
     border-color: black;
 }
 
@@ -118,10 +117,49 @@ body {
     color: rgba(0, 0, 0, 0.500);
 }
 
-.left0{
-    height: 90px;
+.leftT{
+    width: 100%;
+    left: 0;
+    height: 80px;
 }
 
-.left1{
-    width: 100%;
+.leftM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+}
+
+.leftB{
+    position: fixed;
+    width: 50%;
+    height:150px;
+    top:513px;
+}
+
+.video{
+    display: block;
+    width: 230px;
+    height: 230px;
+    object-fit: contain;
+    margin:auto;
+    max-height: 50%;
+    max-width: 100%;
+}
+
+.lyrics{
+    height: 230px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    color: black;
+    min-height: 230px;
+}
+
+#LyricsContainer{
+    display: none; 
+    overflow: scroll; 
+    max-height:200px; 
+    background-color:blueviolet; 
+    padding-left: 20px; 
+    padding-top: 10px;
 }
