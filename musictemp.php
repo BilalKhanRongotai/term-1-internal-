@@ -41,7 +41,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics1" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -49,7 +49,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics2" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -57,7 +57,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics3" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -65,7 +65,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics4" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -73,7 +73,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics5" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -81,7 +81,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics6" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -89,7 +89,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics7" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -97,7 +97,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics8" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -105,7 +105,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics9" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -113,7 +113,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics10" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -121,7 +121,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics11" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -129,7 +129,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics12" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -137,7 +137,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics13" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -145,7 +145,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics14" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -153,7 +153,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics15" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -161,7 +161,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics16" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -169,7 +169,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics17" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -177,7 +177,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics18" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -185,7 +185,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics19" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
@@ -193,7 +193,7 @@ include 'includes/nav.php';
                     <span class="artist">• Kanye West</span> <!-- Songs artists -->
                     <span role="button" class="video-button badge bg-secondary text-dark icon" title="Play" data-video-id=""><span class="fas fa-play"></span></span> <!-- Play song symbol/button -->
                     <span role="button" id="lyrics20" class="badge bg-secondary text-dark icon" title="Lyrics"><span class="far fa-file-alt"></span></span> <!-- Lyrics symbol/button -->
-                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit ssymbol -->
+                    <span class="badge bg-secondary text-dark icon" title="Explicit">E</span> <!-- Explicit symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Interlude">I</span> <!-- Interlude symbol -->
                     <span class="badge bg-secondary text-dark icon" title="Deluxe"><span class="fas fa-star"></span></span> <!-- Deluxe song symbol -->
                 </li>
