@@ -11,7 +11,7 @@ include 'includes/nav.php';
 <div class="container" style="max-width:93%;">
   <div class="row">
     <div class="col grow">
-    <a href=""><img src="image/TCDcover.webp" class="img-fluid" alt="Image could not load"></a>
+    <a href="TCD.php"><img src="image/TCDcover.webp" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
     <a href=""><img src="image/LRcover.jpg" class="img-fluid" alt="Image could not load"></a>
