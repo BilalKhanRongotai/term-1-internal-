@@ -159,7 +159,6 @@ body {
     display: none; 
     overflow: scroll; 
     max-height:200px; 
-    background-color:blueviolet; 
     padding-left: 20px; 
     padding-top: 10px;
 }
