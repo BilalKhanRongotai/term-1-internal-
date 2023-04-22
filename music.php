@@ -14,7 +14,7 @@ include 'includes/nav.php';
     <a href="TCD.php"><img src="image/TCDcover.webp" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <a href=""><img src="image/LRcover.jpg" class="img-fluid" alt="Image could not load"></a>
+    <a href="LR.php"><img src="image/LRcover.jpg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
     <a href=""><img src="image/GraduationCover.jpg" class="img-fluid" alt="Image could not load"></a>
