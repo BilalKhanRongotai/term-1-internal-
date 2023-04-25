@@ -1,19 +1,170 @@
-.centered {
+/* hide horizontal scroll bars */
+body {
+    overflow-x: hidden;
+}
+
+/* center text on an image */
+.image-centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
+
+/* title font size */
 .title {
     font-size: 110px;
 }
 
+/* reverse colour effect */
 .reverse-colour{
     color: white;
     mix-blend-mode:difference;
 }
 
+/* remove padding */
 .no-padding{
     padding: 0;
 }
+
+/* make font white */
+.white{
+    color: white;
+}
+
+/* center text */
+.centered{
+    text-align: center;
+}
+
+/* underline text */
+.underlined{
+    text-decoration: underline;
+}
+
+/* position cards */
+.card-left{
+    margin-left: 10px;
+}
+.card-right{
+    margin-right: 10px;
+}
+
+/* margin */
+.margin-left{
+    margin-left: 10px;
+}
+
+/* make elements grow on hover */
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+.grow:hover { 
+    transform: scale(1.075); 
+}
+
+/* split */
+.z50{
+    z-index: 500;
+    position: relative;
+}
+
+.left{
+    max-width: 50%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.right{
+    max-width: 50%;
+    position: relative;
+    left: 50%;
+    right: 50%;
+}
+
+.albumcover{
+    max-width:50%; 
+    margin:auto;
+}
+
+.albumtitle{
+    text-align: center;
+    color: black;
+}
+
+.albumdesc{
+    text-align: center;
+    color: black;
+}
+
+.albumtrack{
+    border-color: black;
+}
+
+.icon{
+    float: right;
+    margin-left: 5px;
+}
+
+.artist{
+    color: rgba(0, 0, 0, 0.500);
+}
+
+.leftT{
+    width: 100%;
+    left: 0;
+    height: 80px;
+}
+
+.leftM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+}
+
+.leftB{
+    position: fixed;
+    width: 50%;
+    height:150px;
+    top:513px;
+}
+
+.video{
+    display: block;
+    width: 230px;
+    height: 230px;
+    object-fit: contain;
+    margin:auto;
+    max-height: 50%;
+    max-width: 100%;
+}
+
+.lyrics{
+    height: 230px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    color: black;
+    min-height: 230px;
+}
+
+#LyricsContainer{
+    display: none; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height:200px; 
+    padding-left: 20px; 
+    padding-top: 10px;
+}
+
+pre {
+    white-space: pre-wrap;
+    overflow: auto;
+  }
