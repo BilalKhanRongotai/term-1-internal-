@@ -16,7 +16,7 @@
           <a class="nav-link" href="#" style="color:white">History</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" style="color:white">Gallery</a>
+          <a class="nav-link" href="timeline.php" style="color:white">Timeline</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" style="color:white">Gallery</a>
