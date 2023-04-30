@@ -23,7 +23,7 @@ include 'includes/nav.php';
   <br>
   <div class="row">
     <div class="col grow">
-    <a href=""><img src="image/808sCover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    <a href="heartbreak.php"><img src="image/808sCover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
     <a href=""><img src="image/MBDTFcover.jpeg" class="img-fluid" alt="Image could not load"></a>
