@@ -26,7 +26,7 @@ include 'includes/carousel.php';
       <div class="card-body">
         <h5 class="card-title">Yeezy</h5>
         <p class="card-text">Founded by Kanye West, clothing brand Yeezy is known for its minimalist and futuristic designs. In collabaration with adidas, Yeezys footwear and assortment of other items has become very popular. Here you can see some of yeezys best, most popular colthes.</p>
-        <a href="#" class="btn btn-dark">Fashion</a>
+        <a href="yeezy.php" class="btn btn-dark">Fashion</a>
       </div>
     </div>
   </div>

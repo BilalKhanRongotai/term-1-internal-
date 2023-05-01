@@ -168,3 +168,13 @@ pre {
     white-space: pre-wrap;
     overflow: auto;
   }
+
+/* Style yeezy image */
+.yeezyimg{
+    width:100%;
+    min-width:100%;
+}
+
+.yeezycard{
+    width:30%
+}
