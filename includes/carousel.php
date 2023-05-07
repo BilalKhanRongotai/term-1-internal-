@@ -39,5 +39,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-  <h1 class="title image-centered reverse-colour">KANYE WEST</h1>
+  <span class="title image-centered reverse-colour">
+    <span>KAN</span><span style="color:grey;">YE</span><span> WEST</span>
+  </span>
 </div>
