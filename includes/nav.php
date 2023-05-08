@@ -13,7 +13,7 @@
           <a class="nav-link " href="music.php" style=" color:white">Music</a>
         </li>
         <li class="nav-item " >
-          <a class="nav-link " href="#" style=" color:white">Fashion</a>
+          <a class="nav-link " href="yeezy.php" style=" color:white">Fashion</a>
         </li>
 
         <li class="nav-item">

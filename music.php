@@ -17,13 +17,13 @@ include 'includes/nav.php';
     <a href="LR.php"><img src="image/LRcover.jpg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <a href=""><img src="image/GraduationCover.jpg" class="img-fluid" alt="Image could not load"></a>
+    <a href="Graduation.php"><img src="image/GraduationCover.jpg" class="img-fluid" alt="Image could not load"></a>
     </div>
   </div>
   <br>
   <div class="row">
     <div class="col grow">
-    <a href=""><img src="image/808sCover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    <a href="heartbreak.php"><img src="image/808sCover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
     <a href=""><img src="image/MBDTFcover.jpeg" class="img-fluid" alt="Image could not load"></a>
