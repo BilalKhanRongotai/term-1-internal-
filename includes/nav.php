@@ -22,7 +22,7 @@
 
         </li>
         <li class="nav-item " >
-          <a class="nav-link " href="#" style=" color:white">Gallery</a>
+          <a class="nav-link " href="gallery.php" style=" color:white">Gallery</a>
         </li>
         <li class="nav-item " >
           <a class="nav-link " href="#" style=" color:white">Shop</a>
