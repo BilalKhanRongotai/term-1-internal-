@@ -270,7 +270,7 @@ h4{
   </div>
   <div class="container right">
     <div class="content" >
-    <h4><br>   <img src="Image/LRcover.webp" style="width:35%"><b>Late Registration</b></h4>  
+    <h4><br>   <img src="Image/LRcover.jpg" style="width:35%"><b>Late Registration</b></h4>  
       <p>"Late Registration" is Kanye West's second studio album released in 2005. It features collaborations with a diverse array of artists and showcases West's evolution as a producer, incorporating live instrumentation and orchestration into his sound. The album received widespread critical acclaim for its musicality and lyrical depth, cementing West's position as one of the most innovative and boundary-pushing artists of his time.</p>
     </div>
   </div>
