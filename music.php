@@ -35,10 +35,10 @@ include 'includes/nav.php';
   <br>
   <div class="row">
     <div class="col grow">
-    <a href=""><img src="image/KWPGMCScover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    <a href="KWPGMCS.php"><img src="image/KWPGMCScover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <a href=""><img src="image/YeezusCover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    <a href="yeezus.php"><img src="image/YeezusCover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
     <a href=""><img src="image/TLOPcover.jpeg" class="img-fluid" alt="Image could not load"></a>
