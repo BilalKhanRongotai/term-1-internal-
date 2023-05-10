@@ -41,7 +41,7 @@ include 'includes/nav.php';
     <a href="yeezus.php"><img src="image/YeezusCover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <a href=""><img src="image/TLOPcover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    <a href="TLOP.php"><img src="image/TLOPcover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
   </div>
   <br>
