@@ -47,7 +47,7 @@ include 'includes/nav.php';
   <br>
   <div class="row">
     <div class="col grow">
-    <a href=""><img src="image/YeCover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    <a href="Ye.php"><img src="image/YeCover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
     <a href=""><img src="image/KSGcover.jpeg" class="img-fluid" alt="Image could not load"></a>
