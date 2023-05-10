@@ -26,10 +26,10 @@ include 'includes/nav.php';
     <a href="heartbreak.php"><img src="image/808sCover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <a href=""><img src="image/MBDTFcover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    <a href="MBDTF.php"><img src="image/MBDTFcover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <a href=""><img src="image/WTTcover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    <a href="WTT.php"><img src="image/WTTcover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
   </div>
   <br>
