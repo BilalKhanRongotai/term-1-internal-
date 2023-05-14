@@ -50,19 +50,19 @@ include 'includes/nav.php';
     <a href="Ye.php"><img src="image/YeCover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <a href=""><img src="image/KSGcover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    <a href="KSG.php"><img src="image/KSGcover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <a href=""><img src="image/JIKcover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    <a href="JIK.php"><img src="image/JIKcover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
   </div>
   <br>
   <div class="row">
     <div class="col grow">
-    <a href=""><img src="image/DondaCover.jpeg" class="img-fluid" alt="Image could not load"></a>
+    <a href="Donda.php"><img src="image/DondaCover.jpeg" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col grow">
-    <a href=""><img src="image/Donda2Cover.webp" class="img-fluid" alt="Image could not load"></a>
+    <a href="Donda2.php"><img src="image/Donda2Cover.webp" class="img-fluid" alt="Image could not load"></a>
     </div>
     <div class="col"></div>
   </div>
