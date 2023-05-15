@@ -4,12 +4,16 @@ $page_title= "Fashion";
 include 'includes/header.php';
 include 'includes/nav.php';
 ?>
+
+<!-- Title image and text -->
 <img class="yeezyimg" src="image/Yeezy.jpg">
 <h1 class="image-centered title reverse-colour">Yeezy</h1>
 
 <br><br>
+<!-- Description of yeezy -->
 <p class="white centered">Yeezy is a clothing brand founded by Kanye West in 2015. Known for its unique and innovative designs that blend streetwear with high fashion, Yeezy collaborates with Adidas and other fashion brands to offer a wide range of products, including footwear, apparel, and accessories. The brand has gained a significant following for its distinctive style and aesthetic that reflects West's artistic vision.</p>
 
+<!-- Cards about fashion items-->
 <div class="row row-cols-1 row-cols-md-3 g-4" style="padding:10px;">
   <div class="col">
     <div class="card">

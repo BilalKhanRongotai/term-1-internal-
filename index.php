@@ -6,10 +6,13 @@ include 'includes/nav.php';
 include 'includes/carousel.php';
 ?>
 <br>
-<h2 class="white centered underlined">The website for all things Ye</h2>
+<h2 class="white centered underlined">The website for all things Ye</h2> <!-- Header -->
 
 <br>
+
+<!-- Cards -->
 <div class="row row-cols-1 row-cols-md-2 g-4">
+  <!-- Music page card -->
   <div class="col">
     <div class="card card-left">
       <img src="image/card1.webp" class="card-img-top" alt="Image could not load">
@@ -20,6 +23,7 @@ include 'includes/carousel.php';
       </div>
     </div>
   </div>
+  <!-- Fashion page card -->
   <div class="col">
     <div class="card card-right">
       <img src="image/card2.jpg" class="card-img-top" alt="Image could not load">
@@ -30,16 +34,18 @@ include 'includes/carousel.php';
       </div>
     </div>
   </div>
+  <!-- Timeline page card -->
   <div class="col">
     <div class="card card-left">
       <img src="image/card3.jpg" class="card-img-top" alt="Image could not load">
       <div class="card-body">
         <h5 class="card-title">The life of Kanye</h5>
         <p class="card-text">Across the years Kanye west has lived a very interesting and exiting life. Throughout the years he has done alot of very important things. You can look here to learn more about the life of Ye, the artist formerly known as Kanye West.</p>
-        <a href="#" class="btn btn-dark">History</a>
+        <a href="#" class="btn btn-dark">Timeline</a>
       </div>
     </div>
   </div>
+  <!-- Gallery page card -->
   <div class="col">
     <div class="card card-right">
       <img src="image/card4.jpg" class="card-img-top" alt="Image could not load">
