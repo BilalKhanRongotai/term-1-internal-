@@ -25,7 +25,7 @@
           <a class="nav-link " href="gallery.php" style=" color:white">Gallery</a>
         </li>
         <li class="nav-item " >
-          <a class="nav-link " href="#" style=" color:white">Shop</a>
+          <a class="nav-link " href="shop.php" style=" color:white">Shop</a>
         </li>
       </ul>
     </div>
