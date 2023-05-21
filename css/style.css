@@ -186,3 +186,10 @@ pre{
 .yeezycard{
     width:30%
 }
+
+.video-content{
+    position: absolute;
+    top:35%;
+    left: 25%;
+    transform: translate(-25%, -35%);
+}

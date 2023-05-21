@@ -5,9 +5,23 @@ include 'includes/header.php';
 include 'includes/nav.php';
 ?>
 
-<h2 class="white underlined margin-left">Albums:</h2>
+<div style="position: absolute; z-index: -99; width: 100%; height: 760px">
+  <iframe
+    frameborder="0"
+    height="100%"
+    width="100%"
+    src="https://youtube.com/embed/_ABk7TmjnVk?mute=1&autoplay=1&controls=0&showinfo=0&autohide=1&loop=1"
+  >
+  </iframe>
+</div>
 
-<br>
+<div class="video-content">
+  <h1 class="white">Kanye West: A Trailblazer in Musical Innovation</h1>
+  <p class="white">In the vast realm of contemporary music, there exists an artist whose name has become synonymous with boundary-pushing innovation and unapologetic artistry: Kanye West. With a career spanning decades, West has continually defied expectations and carved his own path, leaving an indelible mark on the sonic landscape. From his early days as a producer to his meteoric rise as a solo artist, his journey has been a transformative odyssey that redefines the very essence of musical expression.</p>
+  
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div class="container" style="max-width:93%;">
   <div class="row">
     <div class="col grow">
