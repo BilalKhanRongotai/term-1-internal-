@@ -26,7 +26,7 @@ include 'includes/nav.php';
         <!-- right col -->
         <div class="col right" style="background-color:#F25E95;"> 
             <br>
-            <div class="albumcover"><img src="image/KSGcover.jpeg" class="img-fluid"></div> <!-- album cover -->
+            <div class="albumcover"><img src="image/KSGcover.jpeg" class="img-fluid" alt="Image could not load"></div> <!-- album cover -->
             <br>
             <h3 class="albumtitle">Kids See Ghosts</h3> <!-- title of the album -->
             <!-- Description/background of album -->

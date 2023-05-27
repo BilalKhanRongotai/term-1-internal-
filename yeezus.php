@@ -26,7 +26,7 @@ include 'includes/nav.php';
         <!-- right col -->
         <div class="col right" style="background-color:#b4b8bf;"> 
             <br>
-            <div class="albumcover"><img src="image/YeezusCover.jpeg" class="img-fluid"></div> <!-- album cover -->
+            <div class="albumcover"><img src="image/YeezusCover.jpeg" class="img-fluid" alt="Image could not load"></div> <!-- album cover -->
             <br>
             <h3 class="albumtitle">Yeezus</h3> <!-- title of the album -->
             <!-- Description/background of album -->

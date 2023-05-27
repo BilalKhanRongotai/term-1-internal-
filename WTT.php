@@ -26,7 +26,7 @@ include 'includes/nav.php';
         <!-- right col -->
         <div class="col right" style="background-color:#eccd4b;"> 
             <br>
-            <div class="albumcover"><img src="image/WTTcover.jpeg" class="img-fluid"></div> <!-- album cover -->
+            <div class="albumcover"><img src="image/WTTcover.jpeg" class="img-fluid" alt="Image could not load"></div> <!-- album cover -->
             <br>
             <h3 class="albumtitle">Watch The Throne</h3> <!-- title of the album -->
             <!-- Description/background of album -->
