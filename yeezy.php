@@ -4,12 +4,35 @@ $page_title= "Fashion";
 include 'includes/header.php';
 include 'includes/nav.php';
 ?>
+<style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 30px;
+  border-radius: 4px;
+}
 
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
 <!-- Title image and text -->
 <img class="yeezyimg" src="image/Yeezy.jpg">
 <h1 class="image-centered title reverse-colour">Yeezy</h1>
 
 <br><br>
+<!--Back to top-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 <!-- Description of yeezy -->
 <p class="white centered">Yeezy is a clothing brand founded by Kanye West in 2015. Known for its unique and innovative designs that blend streetwear with high fashion, Yeezy collaborates with Adidas and other fashion brands to offer a wide range of products, including footwear, apparel, and accessories. The brand has gained a significant following for its distinctive style and aesthetic that reflects West's artistic vision.</p>
 
@@ -124,7 +147,27 @@ include 'includes/nav.php';
     </div>
   </div>
 </div>
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 <!-- Call up the footer-->
 <?php
 include 'includes/footer.php';
