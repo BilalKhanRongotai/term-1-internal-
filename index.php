@@ -18,7 +18,7 @@ include 'includes/carousel.php';
       <img src="image/card1.webp" class="card-img-top" alt="Image could not load">
       <div class="card-body">
         <h5 class="card-title">Hip Hop</h5>
-        <p class="card-text">Kanye West has an amazing and extensive discography of groundbreaking mucsic. Over the years Ye has released many influencial albums that have changed the hip hop industry forever. Here you can see all of his albums and songs.</p>
+        <p class="card-text">Kanye West has an amazing and extensive discography of groundbreaking music. Over the years Ye has released many influencial albums that have changed the hip hop industry forever. Here you can see all of his albums and songs.</p>
         <a href="music.php" class="btn btn-dark">Music</a>
       </div>
     </div>

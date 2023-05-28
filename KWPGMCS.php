@@ -26,7 +26,7 @@ include 'includes/nav.php';
         <!-- right col -->
         <div class="col right" style="background-color:#c4c4c4;"> 
             <br>
-            <div class="albumcover"><img src="image/KWPGMCScover.jpeg" class="img-fluid"></div> <!-- album cover -->
+            <div class="albumcover"><img src="image/KWPGMCScover.jpeg" class="img-fluid" alt="Image could not load"></div> <!-- album cover -->
             <br>
             <h3 class="albumtitle">Kanye West Presents: Good Music - Cruel Summer</h3> <!-- title of the album -->
             <!-- Description/background of album -->
