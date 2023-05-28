@@ -41,7 +41,7 @@ include 'includes/carousel.php';
       <div class="card-body">
         <h5 class="card-title">The life of Kanye</h5>
         <p class="card-text">Across the years Kanye west has lived a very interesting and exiting life. Throughout the years he has done alot of very important things. You can look here to learn more about the life of Ye, the artist formerly known as Kanye West.</p>
-        <a href="#" class="btn btn-dark">Timeline</a>
+        <a href="timeline.php" class="btn btn-dark">Timeline</a>
       </div>
     </div>
   </div>
@@ -52,7 +52,7 @@ include 'includes/carousel.php';
       <div class="card-body">
         <h5 class="card-title">Images</h5>
         <p class="card-text">With a career as prolific as Ye's there will be a copious amount of photos, images, and art. We have gone ahead and compiled it all into one gallery so that you can take a look at it yourself.</p>
-        <a href="#" class="btn btn-dark">Gallery</a>
+        <a href="gallery.php" class="btn btn-dark">Gallery</a>
       </div>
     </div>
   </div>
