@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-$page_title= "Kanye West :: Home";
+$page_title= "Timeline";
 include 'includes/header.php';
 include 'includes/nav.php';
 ?>
