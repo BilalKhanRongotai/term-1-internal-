@@ -26,6 +26,11 @@
         </li>
         <!--
         <li class="nav-item " >
+          <a class="nav-link " href="feedback.php" style=" color:white">Enquire</a>
+        </li>
+-->
+        <!--
+        <li class="nav-item " >
           <a class="nav-link " href="shop.php" style=" color:white">Shop</a>
         </li>
   	    -->
