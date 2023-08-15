@@ -13,6 +13,52 @@ include 'includes/nav.php';
         <h2>
             Sign Up
         </h2>
+<?php 
+
+if (isset($GET['error']))
+if($GET['error']== "empty_fields"){
+    echo '<div class="alert alert-danger" role="alert">
+    Fill in all fields
+    </div>';
+}
+if($GET['error']== "invalid_email"){
+    echo '<div class="alert alert-danger" role="alert">
+    Invalid email
+    </div>';
+}
+if($GET['error']== "passwords_does_not_match"){
+    echo '<div class="alert alert-danger" role="alert">
+    passwords_does_not_match
+    </div>';
+}
+if($GET['error']== "password_is_too_long"){
+    echo '<div class="alert alert-danger" role="alert">
+    password_is_too_long maximum 10
+    </div>';
+}
+if($GET['error']== "password_is_too_short"){
+    echo '<div class="alert alert-danger" role="alert">
+    password_is_too_short minimum 8
+    </div>';
+}
+if($GET['error']== "email_is_in_use"){
+    echo '<div class="alert alert-danger" role="alert">
+    email_is_in_use
+    </div>';
+}if($GET['error']== "invalid_email"){
+    echo '<div class="alert alert-danger" role="alert">
+    Invalid email
+    </div>';
+}
+if($GET['error']== "empty_fields"){
+    echo '<div class="alert alert-danger" role="alert">
+    Fill in all fields
+    </div>';
+}
+
+
+?>
+
         <form class="form-control-lg" action="sign_inc.php">
             <div class="form-group row pt-3">
             <label for="email"class="col-sm-2 col-form-label">E-mail</label>

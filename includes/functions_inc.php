@@ -105,7 +105,31 @@ if($row = mysqli_fetch_assoc($resultData)){
     $result = false;
     return $result;
 }
+// Closed the prepared statement
 
+mysqli_stmt_close($stmt);
+}
+//Function to create a new user 
+// Recieves 3 parameters
+function createUser($conn, $email, $pwd){
+// Create basic sql statment & stores the result in a variable 
+$sql = "INSERT INTO admin_tbl (email, password) VALUES(?,?)";
+//Intialiaze prepeared statmen
+$stmt = mysqli_stmt_init($conn);
 
+//Check if there are any errors & return error message
+//on the signup page
 
+if(mysqli_stmt_prepare($stmt,$sql)){
+    header("Location:../signup.php?error=stmt_failed")
+    exit();
+}
+$hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
+mysqli_stmt_bind_param($stmt, "ss", $email, $hashedPwd);
+//Execute the SQL statement and pass the parameter
+//We do not want to sign up to the user if ther are any erros
+mysqli_stmt_execute($stmt);
+//Close the connection
+mysqli_stmt_close($stmt);
+exit();
 }
