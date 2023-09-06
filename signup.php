@@ -3,7 +3,8 @@ $page_title= "Signup";
 include 'includes/header.php';
 include 'includes/nav.php';
 
-//include_once('includes/connection.php')
+include_once 'includes/protect_admin_pages,php';
+include_once('includes/connection.php')
 ?>
 
 <div class="container fluid pt-5 pb-5">
@@ -13,51 +14,51 @@ include 'includes/nav.php';
         <h2>
             Sign Up
         </h2>
-<?php 
 
-if (isset($GET['error']))
-if($GET['error']== "empty_fields"){
+<!--
+if (isset($_GET['error']))
+if($_GET['error']== "empty_fields"){
     echo '<div class="alert alert-danger" role="alert">
     Fill in all fields
     </div>';
 }
-if($GET['error']== "invalid_email"){
+if($_GET['error']== "invalid_email"){
     echo '<div class="alert alert-danger" role="alert">
     Invalid email
     </div>';
 }
-if($GET['error']== "passwords_does_not_match"){
+if($_GET['error']== "passwords_does_not_match"){
     echo '<div class="alert alert-danger" role="alert">
     passwords_does_not_match
     </div>';
 }
-if($GET['error']== "password_is_too_long"){
+if($_GET['error']== "password_is_too_long"){
     echo '<div class="alert alert-danger" role="alert">
     password_is_too_long maximum 10
     </div>';
 }
-if($GET['error']== "password_is_too_short"){
+if($_GET['error']== "password_is_too_short"){
     echo '<div class="alert alert-danger" role="alert">
     password_is_too_short minimum 8
     </div>';
 }
-if($GET['error']== "email_is_in_use"){
+if($_GET['error']== "email_is_in_use"){
     echo '<div class="alert alert-danger" role="alert">
     email_is_in_use
     </div>';
-}if($GET['error']== "invalid_email"){
+}if($_GET['error']== "invalid_email"){
     echo '<div class="alert alert-danger" role="alert">
     Invalid email
     </div>';
 }
-if($GET['error']== "empty_fields"){
+if($_GET['error']== "empty_fields"){
     echo '<div class="alert alert-danger" role="alert">
     Fill in all fields
     </div>';
 }
-
-
 ?>
+-->
+
 
         <form class="form-control-lg" action="sign_inc.php">
             <div class="form-group row pt-3">

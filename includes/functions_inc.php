@@ -2,9 +2,12 @@
  
 //-------------------Signup Functions-----------
 
+
+
 //Function for checking empty text fields
 function emptyInputSignup($email,$pwd,$repeat_pwd){
 $result = false;
+
 
 //Check fields are empty using built-in functions
 if(empty($email)||empty($pwd)||empty($repeat_pwd))
@@ -15,19 +18,9 @@ else {
 }
 return $result;
 } 
-//Function for checking empty text fields
-function emptyEmail($email){
-    $result = false;
-    
-    //Check fields are empty using built-in functions
-    if(empty($email)||empty($pwd)||empty($repeat_pwd));
-    
-        $results = true;
-    else {
-        $result = false;
-    }
-    return $result;
-    }
+
+
+
 function invalidEmail($email)
 {
     $result = false;
@@ -36,18 +29,20 @@ function invalidEmail($email)
 
     }
     else {
-       return = false;
+       $result = false;
     }
     return $result;
 }
-function pwdMatch($pwd, $repeat_pwd){
+function pwdMatch($pwd, $repeat_pwd)
+{
 $result=false;
-if ($pwd!== $repeat_pwd)
+if ($pwd!== $repeat_pwd){
 $result= true;
 }
 else{
     $result = false;
     return $result;
+}
 }
 function longPwd($pwd){
     $result = false;
@@ -59,18 +54,19 @@ function longPwd($pwd){
     } else{
         $result = false;
     }
+    return $result;
 }
 function shortPwd($pwd){
+    $min = 8;
     $result = false;
-    min=8;
-    $len = strlen($Pwd);
-    if ($len<$min){
+    $len = strlen($pwd);
+    if ($len < $min){
         $result = true;
     }
     else {
         $result=false;
     }
-
+return $result;
 }
 // Function for email is in database ? is a placeholder for email address
 function emailExists($conn, $email)
@@ -79,7 +75,7 @@ $sql = "SELECT * FROM users WHERE email=?;";
 //Intialize prepared statement 
 $stmt = mysqli_stmt_init($conn);
 
-if(mysqli_stmt_prepare)($stmt,$sql){
+if(!mysqli_stmt_prepare($stmt, $sql)){
     header("Location:../signup.php?error=fail");
 }
 //If there are no error ,pass the data from the user
@@ -88,7 +84,7 @@ mysqli_stmt_bind_param($stmt, "s", $email);
 
 /*Execute it use & pass in $stmt parameter We do not want to sign up the user if email exists already in the database using the built in php function */
 
-mysqli_stmt_execute($stmt)
+mysqli_stmt_execute($stmt);
 
 //Grab the data from the database & store it in a variable
 //and pass in the $stmt parameter
@@ -109,27 +105,53 @@ if($row = mysqli_fetch_assoc($resultData)){
 
 mysqli_stmt_close($stmt);
 }
+
+
 //Function to create a new user 
 // Recieves 3 parameters
 function createUser($conn, $email, $pwd){
 // Create basic sql statment & stores the result in a variable 
-$sql = "INSERT INTO admin_tbl (email, password) VALUES(?,?)";
+$sql = "INSERT INTO admin_tbl (email, password) VALUES(?,?);";
 //Intialiaze prepeared statmen
 $stmt = mysqli_stmt_init($conn);
+
+
+
 
 //Check if there are any errors & return error message
 //on the signup page
 
-if(mysqli_stmt_prepare($stmt,$sql)){
-    header("Location:../signup.php?error=stmt_failed")
+if(!mysqli_stmt_prepare($stmt,$sql)){
+    header("Location:../signup.php?error=stmt_failed");
     exit();
 }
 $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
+
 mysqli_stmt_bind_param($stmt, "ss", $email, $hashedPwd);
+
 //Execute the SQL statement and pass the parameter
 //We do not want to sign up to the user if ther are any erros
 mysqli_stmt_execute($stmt);
 //Close the connection
 mysqli_stmt_close($stmt);
+header("Location: ../signup.php?error=none");
 exit();
 }
+//Login function to deal with empty fields
+// 1 Parameter
+function emptyInputLogin(){
+
+}
+
+//Login Function
+function loginUser($conn, $username, $pwd){
+    $emailExists =emailExists($conn,$username);
+    
+if(($emailExists)===false){
+
+}
+}
+$pwdHashed = $emailExists["Password"];
+$checkPwd = password_verify($pwd, $pwdHashed);
+if ($checkPwd=== false
+);
