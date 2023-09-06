@@ -9,7 +9,7 @@ if($_SERVER['REQUEST METHOD']=='POST'){
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $pwd = mysqli_real_escape_string($conn, $_POST['pwd']);
     $repeat_pwd = mysqli_real_escape_string($conn, $_POST['repeat_pwd']);
-}
+
 //Validate email
 if (emptyInputSignup($email, $pwd, $repeat_pwd)!== false){
     header("Location: ../signup.php?error=empty_fields&=".$email. "&pwd=".$pwd. "&repeat_pwd=".$repeat_pwd);
@@ -42,7 +42,7 @@ if(emailExists($conn, $email)){
 }
 
 createUser($conn, $email, $pwd);
-{
+} else {
     header("Location: ../signup.php");
     exit();
 }

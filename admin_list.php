@@ -41,6 +41,7 @@ mysqli_close($conn);
               <td><?php echo $admin['Email']?></td>
               <td><?php echo $admin['Password']?></td>
               <td><?php echo $admin['Datereg']?></td>
+              <td></td>
               <td>Modify</td>
               <td>Delte</td>
             </tr>
