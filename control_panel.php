@@ -1,6 +1,7 @@
 <!-- Call up the header and navbar and set page title-->
 <?php
-$page_title= "";
+
+$page_title= "Admin Update";
 include 'includes/header.php';
 include 'includes/nav.php';
 
