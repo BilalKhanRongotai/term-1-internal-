@@ -17,20 +17,20 @@ include_once('includes/connection.php');
 //gets the adminID from the admin list page , witch was passed teh ure pramater 
 // in a varibel called $admiID this will be unwraped to asses the corrosponding 
 // adminID global$_ get varible is used to access the admin id 
-$adminID = mysqli_real_escape_string($conn, $_GET['adminID'])
+$adminID = mysqli_real_escape_string($conn, $_GET['adminID']);
 
 // check if the user got her legitimitle when the updateA_btn id clicked
 // the dat awil be stoped in varible
 
 if (isset($_post['update_btn'])){
-    $email = mysqli_real_escape_string($conn, $_post['email'])
+    $email = mysqli_real_escape_string($conn, $_post['email']);
 
     //query the database and store the results in a varible 
     $sql_query = "UPDATE admin_tbl SET
                 adminID =$ADMINID;
                 email= $email
                 password= $pwd    
-                where adminid= $adminID "
+                where adminid= $adminID ";
     if(mysqli_query($conn, $sqil_query)){
         //ERROR MESSAGE IS RETURNED IF THER IS A ERROR 
     }else{

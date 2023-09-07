@@ -3,7 +3,7 @@ $page_title= "Signup";
 include 'includes/header.php';
 include 'includes/nav.php';
 
-include_once 'includes/protect_admin_pages,php';
+//include_once 'includes/protect_admin_pages,php';
 include_once('includes/connection.php')
 ?>
 
@@ -15,8 +15,8 @@ include_once('includes/connection.php')
             Sign Up
         </h2>
 
-<!--
-if (isset($_GET['error']))
+<?php
+if (isset($_GET['error'])) {
 if($_GET['error']== "empty_fields"){
     echo '<div class="alert alert-danger" role="alert">
     Fill in all fields
@@ -56,11 +56,11 @@ if($_GET['error']== "empty_fields"){
     Fill in all fields
     </div>';
 }
+}
 ?>
--->
 
 
-        <form class="form-control-lg" action="sign_inc.php">
+        <form class="form-control-lg" action="includes/signup_inc.php">
             <div class="form-group row pt-3">
             <label for="email"class="col-sm-2 col-form-label">E-mail</label>
             <div class="col-sm-10">

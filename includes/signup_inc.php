@@ -8,12 +8,12 @@ require('functions_inc.php');
 if($_SERVER['REQUEST METHOD']=='POST'){
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $pwd = mysqli_real_escape_string($conn, $_POST['pwd']);
-    $repeat_pwd = mysqli_real_escape_string($conn, $_POST['repeat_pwd']);
+    $pwd_repeat = mysqli_real_escape_string($conn, $_POST['repeat_pwd']);
 
 
     //Validate email
     if (emptyInputSignup($email, $pwd, $repeat_pwd)!== false){
-        header("Location: ../signup.php?error=empty_fields&=".$email. "&pwd=".$pwd. "&repeat_pwd=".$repeat_pwd);
+        header("Location: ../signup.php?error=empty_fields&email=" . $email . "&pwd=" . $pwd . "&pwd_repeat=" . $pwd_repeat);
         exit();
     }
 

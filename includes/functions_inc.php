@@ -12,7 +12,7 @@ $result = false;
 //Check fields are empty using built-in functions
 if(empty($email)||empty($pwd)||empty($repeat_pwd))
 {
-    $results = true;}
+    $result = true;}
 else {
     $result = false;
 }
