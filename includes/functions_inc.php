@@ -71,7 +71,7 @@ return $result;
 // Function for email is in database ? is a placeholder for email address
 function emailExists($conn, $email)
 {
-$sql = "SELECT * FROM users WHERE email=?;";
+$sql = "SELECT * FROM admin_tbl WHERE email=?;";
 //Intialize prepared statement 
 $stmt = mysqli_stmt_init($conn);
 
@@ -111,7 +111,7 @@ mysqli_stmt_close($stmt);
 // Recieves 3 parameters
 function createUser($conn, $email, $pwd){
 // Create basic sql statment & stores the result in a variable 
-$sql = "INSERT INTO admin_tbl (email, password) VALUES(?,?);";
+$sql = "INSERT INTO admin_tbl (email, password) VALUES(?,?)";
 //Intialiaze prepeared statmen
 $stmt = mysqli_stmt_init($conn);
 
@@ -134,24 +134,49 @@ mysqli_stmt_bind_param($stmt, "ss", $email, $hashedPwd);
 mysqli_stmt_execute($stmt);
 //Close the connection
 mysqli_stmt_close($stmt);
-header("Location: ../signup.php?error=none");
+
 exit();
 }
 //Login function to deal with empty fields
 // 1 Parameter
-function emptyInputLogin(){
+function emptyInputLogin($username, $pwd){
+if (empty($username)|| empty($pwd)){
+    $result = true;
 
 }
+else{
+    $result = false;
+}
+}
+return $result;
 
 //Login Function
 function loginUser($conn, $username, $pwd){
     $emailExists =emailExists($conn,$username);
     
 if(($emailExists)===false){
+Header ('Location:../login.php?error=wrong_username');
+exit();
+}
 
-}
-}
+
+
+
+
 $pwdHashed = $emailExists["Password"];
 $checkPwd = password_verify($pwd, $pwdHashed);
 if ($checkPwd=== false
-);
+){
+    Header ('Location:../login.php?error=wrong_username');
+    exit();
+}
+else if($checkPwd === true){
+    session_start();
+    $_SESSION['AdminID']=$emailExists['AdminID'];   
+    $_SESSION['Email']=$emailExists['Email'];   
+    $_SESSION['Password']=$emailExists['Password'];   
+    $_SESSION['Datereg']=$emailExists['Datereg'];   
+    header('Location:../control_panel.php');
+    exit();
+}
+}
