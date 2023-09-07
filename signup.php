@@ -60,7 +60,7 @@ if($_GET['error']== "empty_fields"){
 ?>
 
 
-        <form class="form-control-lg" action="includes/signup_inc.php">
+        <form class="form-control-lg" action="includes/signup_inc.php" method="POST">
             <div class="form-group row pt-3">
             <label for="email"class="col-sm-2 col-form-label">E-mail</label>
             <div class="col-sm-10">
@@ -82,7 +82,7 @@ if($_GET['error']== "empty_fields"){
             <div class="form-group row pt-5">
             <label for="submit"class="col-sm-2 col-form-label">Signup</label>
             <div class="col-sm-10">
-                <button type="signup" name="signup" class="form-cotnrol" placeholder="Signup">Signup</button>
+                <button type="signup" name="signup_btn" class="form-cotnrol" placeholder="Signup">Signup</button>
             </div>
             </div>
             </div>
