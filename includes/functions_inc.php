@@ -46,7 +46,7 @@ else{
 }
 function longPwd($pwd){
     $result = false;
-    $max = 10;
+    $max = 100;
     $len = strlen($pwd);
     if ($len>$max){
         $result = true;
@@ -135,6 +135,7 @@ mysqli_stmt_execute($stmt);
 //Close the connection
 mysqli_stmt_close($stmt);
 
+header("Location:../signup.php");
 exit();
 }
 //Login function to deal with empty fields
@@ -147,8 +148,9 @@ if (empty($username)|| empty($pwd)){
 else{
     $result = false;
 }
-}
 return $result;
+}
+
 
 //Login Function
 function loginUser($conn, $username, $pwd){

@@ -5,15 +5,15 @@ require('connection.php');
 //Calling the functions_inc page
 require('functions_inc.php');
 
-if($_SERVER['REQUEST METHOD']=='POST'){
+if($_SERVER['REQUEST_METHOD']=='POST'){
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $pwd = mysqli_real_escape_string($conn, $_POST['pwd']);
-    $pwd_repeat = mysqli_real_escape_string($conn, $_POST['repeat_pwd']);
+    $repeat_pwd = mysqli_real_escape_string($conn, $_POST['repeat_pwd']);
 
 
     //Validate email
     if (emptyInputSignup($email, $pwd, $repeat_pwd)!== false){
-        header("Location: ../signup.php?error=empty_fields&email=" . $email . "&pwd=" . $pwd . "&pwd_repeat=" . $pwd_repeat);
+        header("Location: ../signup.php?error=empty_fields&email=" . $email . "&pwd=" . $pwd . "&pwd_repeat=" . $repeat_pwd);
         exit();
     }
 
