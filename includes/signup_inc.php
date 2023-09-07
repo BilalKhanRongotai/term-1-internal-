@@ -11,7 +11,6 @@ if($_SERVER['REQUEST METHOD']=='POST'){
     $repeat_pwd = mysqli_real_escape_string($conn, $_POST['repeat_pwd']);
 
 
-
     //Validate email
     if (emptyInputSignup($email, $pwd, $repeat_pwd)!== false){
         header("Location: ../signup.php?error=empty_fields&=".$email. "&pwd=".$pwd. "&repeat_pwd=".$repeat_pwd);
