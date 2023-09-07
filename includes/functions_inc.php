@@ -153,8 +153,8 @@ return $result;
 
 
 //Login Function
-function loginUser($conn, $username, $pwd){
-    $emailExists =emailExists($conn,$username);
+function loginUser($conn, $email, $pwd){
+    $emailExists =emailExists($conn,$email);
     
 if(($emailExists)===false){
 Header ('Location:../login.php?error=wrong_username');
@@ -169,7 +169,7 @@ $pwdHashed = $emailExists["Password"];
 $checkPwd = password_verify($pwd, $pwdHashed);
 if ($checkPwd=== false
 ){
-    Header ('Location:../login.php?error=wrong_username');
+    Header ('Location:../login.php?error=wrong_password');
     exit();
 }
 else if($checkPwd === true){
