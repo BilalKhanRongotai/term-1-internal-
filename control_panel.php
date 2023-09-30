@@ -1,32 +1,36 @@
-<!-- Call up the header and navbar and set page title-->
+<!-- Calling header page-->
 <?php
+//Call protect admin page
+// include_once 'includes/protect_admin_pages.php';
 
-$page_title= "Admin Update";
 include 'includes/header.php';
+$page_title = "control panel";
+
+// calling header and nav pages
 include 'includes/nav.php';
+include 'includes/header.php';
 
-include_once('includes/connection.php')
+// Calling Connection page
+include_once ('includes/connection.php')
+
 ?>
 
-<div class="container fluid pt-5 pb-5">
+<!-- Start of content-->
+<div class="container pt-5 pb-5 white">
     <div class="row">
-        <div class="col-sm-3">
-        <div class="col-sm-6">
-        <h2>
-            Sign Up
-        </h2>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+        <h2>Control Panel</h2>
+        <?php
+        if(isset($_SESSION['AdminID'])){
+            echo "Welcome Back User:" . $_SESSION['AdminID'];
+        }
+        ?>
 </div>
-        </div>
+<div class="col-sm-1">
+
+</div>
     </div>
+
+
 </div>
-
-
-
-
-
-
-
-
-<?php
-include 'includes/footer.php';
-?>

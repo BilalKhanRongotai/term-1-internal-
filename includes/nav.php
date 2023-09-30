@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (!isset($_SESSION['Email'])){
+$_SESSION['Email']="Logged Out";}
+?>
+
 <!-- Nav Bar -->
 <nav class="navbar navbar-expand-lg bg-dark no-padding z50">
   <div class="container-fluid z50" style="background-color: rgba(0, 0, 0, 0.2);">
@@ -24,6 +30,14 @@
         <li class="nav-item " >
           <a class="nav-link " href="gallery.php" style=" color:white">Gallery</a>
         </li>
+          <li  style=" color:white">
+          <a>
+          <?php       
+          echo $_SESSION["Email"];
+          ?>
+          </a>
+          </li>
+          
         <!--
         <li class="nav-item " >
           <a class="nav-link " href="feedback.php" style=" color:white">Enquire</a>
@@ -37,18 +51,34 @@
       </ul>
     </div>
     <!-- Page links on right of nav bar -->
-    <!-- 
+    
     <div class="collapse navbar-collapse position-absolute top-25 end-0 "  id="navbarNav">
       <ul class="navbar-nav " >
-        <li class="nav-item " >
+        <!--<li class="nav-item " >
           <a class="nav-link " href="#" title="Cart" style=" font-size:30px;color:white"><i class="fas fa-shopping-cart "></i></a>
-        </li>
-        <li class="nav-item " >
+        </li>-->
+        <li class="nav-item dropdown" >
+          
           <a class="nav-link " href="#" title="Profile" style=" font-size:30px;color:white"><i class="fas fa-user "></i></a>
         </li>
+
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+
+
       </ul>
     </div>
-  -->
+
   </div>
   
 </nav>

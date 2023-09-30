@@ -34,7 +34,7 @@ if (isset($_GET['error'])) {
     <div class="row">
         <div class="col-sm-3">
     </div> <div class="col-sm-6">
-            <h2>Admin login</h2>
+            <h2>Login</h2>
             <form class="form-control-lg" action="includes/login_inc.php" method="POST">
                     <div class="form-group row pt-4">
                         <label for="email" class="col-sm-2 col-form-label">E-mail</label>
