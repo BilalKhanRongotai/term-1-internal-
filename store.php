@@ -3,6 +3,7 @@
 $page_title= "Shop";
 include 'includes/header.php';
 include 'includes/nav.php';
+include 'includes/connection.php';
 ?>
 
 <div id="carouselExampleCaptions" class="carousel slide">
@@ -46,6 +47,32 @@ include 'includes/nav.php';
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
+
+<br>
+<div class="row row-cols-1 row-cols-md-4 g-4"  style="margin:10px;">
+<?php
+$sql = "SELECT Name,Price FROM store_tbl;";
+$result = $conn->query($sql);
+
+$item = mysqli_fetch_all($result);
+
+foreach ($item as $item){
+$name=$item[0];
+$price=$item[1];
+
+echo '<div class="col">';
+echo '<div href="#" class="card h-100">';
+echo '  <img class="card-img-top" src="..." alt="Card image cap">';
+echo '  <div class="card-body">';
+echo '    <h5 class="card-title">' . $name . '</h5>';
+echo '    <p class="card-text">$' . $price . '</p>';
+echo '  </div>';
+echo '</div>';
+echo '</div>';
+
+}
+?>
 </div>
 
 <!-- Call up the footer-->

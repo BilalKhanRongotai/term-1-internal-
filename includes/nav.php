@@ -32,9 +32,9 @@ $_SESSION['Email']="Logged Out";}
         </li>
           <li  style=" color:white">
           <a>
-          <?php       
+          <!--<?php       
           echo $_SESSION["Email"];
-          ?>
+          ?>-->
           </a>
           </li>
           
@@ -43,11 +43,11 @@ $_SESSION['Email']="Logged Out";}
           <a class="nav-link " href="feedback.php" style=" color:white">Enquire</a>
         </li>
 -->
-        <!--
+        
         <li class="nav-item " >
-          <a class="nav-link " href="shop.php" style=" color:white">Shop</a>
+          <a class="nav-link " href="store.php" style=" color:white">Store</a>
         </li>
-  	    -->
+  	    
       </ul>
     </div>
     <!-- Page links on right of nav bar -->

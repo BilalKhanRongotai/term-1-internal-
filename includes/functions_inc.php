@@ -182,3 +182,17 @@ else if($checkPwd === true){
     exit();
 }
 }
+
+// Create store item function
+function createItem($conn, $name, $price){
+    $sql = "INSERT INTO store_tbl (Name, Price) VALUES(?,?)";
+    $stmt = mysqli_stmt_init($conn);
+    mysqli_stmt_prepare($stmt,$sql);
+    mysqli_stmt_bind_param($stmt, "sd", $name, $price);
+    mysqli_stmt_execute($stmt);
+    //Close the connection
+    mysqli_stmt_close($stmt);
+
+    header("Location: ../store_add.php");
+    exit();
+}
