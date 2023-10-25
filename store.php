@@ -52,7 +52,7 @@ include 'includes/connection.php';
 <br>
 <div class="row row-cols-1 row-cols-md-4 g-4"  style="margin:10px;">
 <?php
-$sql = "SELECT Name,Price FROM store_tbl;";
+$sql = "SELECT Name,Price,Category,Year,Collection FROM store_tbl;";
 $result = $conn->query($sql);
 
 $item = mysqli_fetch_all($result);
@@ -60,6 +60,9 @@ $item = mysqli_fetch_all($result);
 foreach ($item as $item){
 $name=$item[0];
 $price=$item[1];
+$category=$$item[2];
+$year=$item[3];
+$collection=$item[4];
 
 echo '<div class="col">';
 echo '<div href="#" class="card h-100">';
@@ -67,6 +70,9 @@ echo '  <img class="card-img-top" src="..." alt="Card image cap">';
 echo '  <div class="card-body">';
 echo '    <h5 class="card-title">' . $name . '</h5>';
 echo '    <p class="card-text">$' . $price . '</p>';
+echo '    <p class="card-text">$' . $catgory . '</p>';
+echo '    <p class="card-text">$' . $collection . '</p>';
+echo '    <p class="card-text">$' . $year . '</p>';
 echo '  </div>';
 echo '</div>';
 echo '</div>';
