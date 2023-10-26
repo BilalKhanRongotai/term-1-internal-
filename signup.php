@@ -14,7 +14,9 @@ include_once('includes/connection.php')
         <h2>
             Sign Up
         </h2>
-
+<style>
+    color: blue;
+</style>
 <?php
 if (isset($_GET['error'])) {
 if($_GET['error']== "empty_fields"){

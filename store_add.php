@@ -12,7 +12,7 @@ include_once('includes/connection.php')
         <div class="col-sm-3">
         <div class="col-sm-6">
         <h2>
-            Sign Up
+            Store add
         </h2>
 
 <?php
