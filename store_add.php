@@ -77,19 +77,20 @@ if($_GET['error']== "empty_fields"){
             <div class="form-group row pt-4">
             <label for="price"class="col-sm-2 col-form-label">Category</label>
             <div class="col-sm-10">
-            <select class="form-control" id="exampleFormControlSelect1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
+            <select class="form-control" name="category" id="exampleFormControlSelect1">
+                <option>Shoes</option>
+                <option>Tops</option>
+                <option>Bottoms</option>
+                <option>Vinyl</option>
+                <option>Cds</option>
+                <option>Miscellaneous</option>
             </select>
             </div>
             </div>
             <div class="form-group row pt-4">
             <label for="price"class="col-sm-2 col-form-label">Year</label>
             <div class="col-sm-10">
-            <select class="form-control" id="exampleFormControlSelect1">
+            <select class="form-control" name="year" id="exampleFormControlSelect1">
                 <option>2023</option>
                 <option>2022</option>
                 <option>2021</option>
@@ -107,9 +108,21 @@ if($_GET['error']== "empty_fields"){
                 <option>2009</option>
             </select>
             </div>
+            <div class="form-group row pt-4">
+            <label for="price"class="col-sm-2 col-form-label">Image</label>
+            <div class="col-sm-10">
+                <input type="file" name="image" class="form-cotnrol" placeholder="Image">
+            </div>
+            </div>
+            <div class="form-group row pt-3">
+            <label for="email"class="col-sm-2 col-form-label">Description</label>
+            <div class="col-sm-10">
+                <textarea type="text" name="description" class="form-cotnrol" placeholder="description" style="width:500px; height:300px">
+                
+                </textarea>
+            </div>
             </div>
             <div class="form-group row pt-5">
-            <label for="submit"class="col-sm-2 col-form-label">Submit</label>
             <div class="col-sm-10">
                 <button type="submit" name="submit_btn" class="form-cotnrol" placeholder="Signup">Submit</button>
             </div>

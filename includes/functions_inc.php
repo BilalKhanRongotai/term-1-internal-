@@ -184,11 +184,11 @@ else if($checkPwd === true){
 }
 
 // Create store item function
-function createItem($conn, $name, $price){
-    $sql = "INSERT INTO store_tbl (Name, Price) VALUES(?,?)";
+function createItem($conn, $name, $price, $category, $year, $image, $description){
+    $sql = "INSERT INTO store_tbl (Name, Price, Category, Year, Image, Description) VALUES(?,?,?,?,?,?)";
     $stmt = mysqli_stmt_init($conn);
     mysqli_stmt_prepare($stmt,$sql);
-    mysqli_stmt_bind_param($stmt, "sd", $name, $price);
+    mysqli_stmt_bind_param($stmt, "sdsdss", $name, $price, $category, $year, $image, $description);
     mysqli_stmt_execute($stmt);
     //Close the connection
     mysqli_stmt_close($stmt);
