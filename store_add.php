@@ -67,13 +67,47 @@ if($_GET['error']== "empty_fields"){
             <div class="col-sm-10">
                 <input type="text" name="name" class="form-cotnrol" placeholder="Name">
             </div>
+            </div>
             <div class="form-group row pt-4">
             <label for="price"class="col-sm-2 col-form-label">Price</label>
             <div class="col-sm-10">
                 <input type="float" name="price" class="form-cotnrol" placeholder="Price">
             </div>
             </div>
-           
+            <div class="form-group row pt-4">
+            <label for="price"class="col-sm-2 col-form-label">Category</label>
+            <div class="col-sm-10">
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            </div>
+            </div>
+            <div class="form-group row pt-4">
+            <label for="price"class="col-sm-2 col-form-label">Year</label>
+            <div class="col-sm-10">
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>2023</option>
+                <option>2022</option>
+                <option>2021</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
+                <option>2010</option>
+                <option>2009</option>
+            </select>
+            </div>
+            </div>
             <div class="form-group row pt-5">
             <label for="submit"class="col-sm-2 col-form-label">Submit</label>
             <div class="col-sm-10">
