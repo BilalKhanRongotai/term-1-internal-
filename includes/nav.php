@@ -54,9 +54,11 @@ $_SESSION['Email']="Logged Out";}
     
     <div class="collapse navbar-collapse position-absolute top-25 end-0 "  id="navbarNav">
       <ul class="navbar-nav " >
-        <!--<li class="nav-item " >
-          <a class="nav-link " href="#" title="Cart" style=" font-size:30px;color:white"><i class="fas fa-shopping-cart "></i></a>
-        </li>-->
+        <li class="nav-item " >
+          <a class="nav-link " href="wishlist.php" title="Wishlist" style=" font-size:30px;color:white"><i class='far fa-heart'></i></a>
+        </li>
+
+
         <li class="nav-item dropdown" >
           
           <a class="nav-link " href="#" title="Profile" style=" font-size:30px;color:white"><i class="fas fa-user "></i></a>
