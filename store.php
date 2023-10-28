@@ -52,24 +52,27 @@ include 'includes/connection.php';
 <br>
 <div class="row row-cols-1 row-cols-md-4 g-4"  style="margin:10px;">
 <?php
-$sql = "SELECT Name,Price,Image FROM store_tbl;";
+$sql = "SELECT ItemID, Name,Price,Image FROM store_tbl;";
 $result = $conn->query($sql);
 
 $item = mysqli_fetch_all($result);
 
 foreach ($item as $item){
-$name=$item[0];
-$price=$item[1];
-$image=$item[2];
+$id=$item[0];
+$name=$item[1];
+$price=$item[2];
+$image=$item[3];
 
 echo '<div class="col">';
-echo '<div href="#" class="card h-100">';
+echo '<a href="product.php?product=' . $id . '">';
+echo '<div class="card h-100">';
 echo '  <img class="card-img-top" src="image/' . $image . '" alt="Card image cap">';
 echo '  <div class="card-body">';
 echo '    <h5 class="card-title">' . $name . '</h5>';
 echo '    <p class="card-text">$' . $price . '</p>';
 echo '  </div>';
 echo '</div>';
+echo '</a>';
 echo '</div>';
 
 }

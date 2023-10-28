@@ -4,7 +4,24 @@ $page_title= "Product page";
 include 'includes/header.php';
 include 'includes/nav.php';
 
-include_once('includes/connection.php')
+include_once('includes/connection.php');
+
+$id = $_GET["product"];
+
+$sql = "SELECT Name, Price, Category, Year, Image, Description FROM store_tbl WHERE ItemID = $id;";
+$result = $conn->query($sql);
+
+$info = mysqli_fetch_array($result);
+
+$name = $info[0];
+$price = $info[1];
+$category = $info[2];
+$year = $info[3];
+$image = $info[4];
+$description = $info[5];
+
+
+
 ?>
 <style>
 /* Split the screen in half */
@@ -45,17 +62,17 @@ include_once('includes/connection.php')
 
 <div class="split left">
   <div class="centered">
-    <img src="Image/3yrs.jpg" alt="Image not available">
-    <h2 style="color: white;">Product name</h2>
-    <p style="color: white;">Info on the product</p>
+    <img style="height:300px" src="Image/<?php echo $image; ?>" alt="Image not available">
+    <h2 style="color: white;"><?php echo $name; ?></h2>
+    <p style="color: white;"><?php echo $category; ?></p>
   </div>
 </div>
 
 <div class="split right">
   <div class="centered">
     
-    <h2>More info on the product and form stuff</h2>
-    <p>Some text here too.</p>
+    <h2>$<?php echo $price; ?></h2>
+    <p><?php echo $description; ?></p>
  
 <button style='font-size:24px'>Wishlist <i class='far fa-heart'></i></button>
   </div>
