@@ -14,9 +14,7 @@ include_once('includes/connection.php')
         <h2>
             Sign Up
         </h2>
-<style>
-    color: blue;
-</style>
+
 <?php
 if (isset($_GET['error'])) {
 if($_GET['error']== "empty_fields"){
@@ -64,25 +62,25 @@ if($_GET['error']== "empty_fields"){
 
         <form class="form-control-lg" action="includes/signup_inc.php" method="POST">
             <div class="form-group row pt-3">
-            <label for="email"class="col-sm-2 col-form-label">E-mail</label>
+            <label for="email"class="col-sm-2 col-form-label" style="color: white;">E-mail</label>
             <div class="col-sm-10">
                 <input type="text" name="email" class="form-cotnrol" placeholder="Email">
             </div>
             <div class="form-group row pt-4">
-            <label for="password"class="col-sm-2 col-form-label">Password</label>
+            <label for="password"class="col-sm-2 col-form-label" style="color: white;">Password</label>
             <div class="col-sm-10">
                 <input type="password" name="pwd" class="form-cotnrol" placeholder="Password">
             </div>
             </div>
             <div class="form-group row pt-4">
-            <label for="password"class="col-sm-2 col-form-label"> RepeatPassword</label>
+            <label for="password"class="col-sm-2 col-form-label" style="color: white;"> Repeat Password</label>
             <div class="col-sm-10">
                 <input type="password" name="repeat_pwd" class="form-cotnrol" placeholder="Repeat Password">
             </div>
             </div>
            
             <div class="form-group row pt-5">
-            <label for="submit"class="col-sm-2 col-form-label">Signup</label>
+            <label for="submit"class="col-sm-2 col-form-label"style="color: white;">Signup</label>
             <div class="col-sm-10">
                 <button type="signup" name="signup_btn" class="form-cotnrol" placeholder="Signup">Signup</button>
             </div>
