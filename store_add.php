@@ -11,10 +11,12 @@ include_once('includes/connection.php')
     <div class="row">
         <div class="col-sm-3">
         <div class="col-sm-6">
-        <h2>
+        <h2 style="color: white;">
             Store add
         </h2>
+<style>
 
+</style>
 <?php
 
 if (isset($_GET['error'])) {
@@ -47,7 +49,7 @@ if($_GET['error']== "long_description"){
 }
 ?>
 
-
+ <div class="centered">
         <form class="form-control-lg" action="includes/store_add_inc.php" method="POST">
             <div class="form-group row pt-3">
             <label for="Name"class="col-sm-2 col-form-label">Name</label>
@@ -120,7 +122,7 @@ if($_GET['error']== "long_description"){
         <div class="col-sm-3"></div>
     </div>
 </div>
-
+</div>
 
 
 
