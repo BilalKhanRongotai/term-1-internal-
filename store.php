@@ -17,25 +17,25 @@ include 'includes/connection.php';
     <div class="carousel-item active">
       <img src="image/ShopCarousel1.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-      <button type="button" class="btn btn-secondary">Shoes</button>
+      <button type="button" class="btn btn-secondary" href='#Shoes';>Shoes</button>
       </div>
     </div>
     <div class="carousel-item">
       <img src="image/ShopCarousel2.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-      <button type="button" class="btn btn-secondary">Tops</button>
+      <button type="button" class="btn btn-secondary" href='#tops';>Tops</button>
       </div>
     </div>
     <div class="carousel-item">
       <img src="image/ShopCarousel3.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-      <button type="button" class="btn btn-secondary">Bottoms</button>
+      <button type="button" class="btn btn-secondary"href='#Bottoms';>Bottoms</button>
       </div>
     </div>
     <div class="carousel-item">
       <img src="image/ShopCarousel4.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-      <button type="button" class="btn btn-secondary">Other</button>
+      <button type="button" class="btn btn-secondary" href='#Music';>Other</button>
       </div>
     </div>
   </div>
@@ -51,6 +51,9 @@ include 'includes/connection.php';
 
 <br>
 
+
+
+<div class="content" id="Shoes">
 <h1 class="white centered underlined">Shoes</h1>
 <div class="row row-cols-1 row-cols-md-4 g-4"  style="margin:10px;">
 <?php
@@ -80,7 +83,7 @@ echo '</div>';
 }
 ?>
 </div>
-
+<div class="content" id="tops"></div>
 <h1 class="white centered underlined">Tops</h1>
 <div class="row row-cols-1 row-cols-md-4 g-4"  style="margin:10px;">
 <?php
@@ -110,7 +113,7 @@ echo '</div>';
 }
 ?>
 </div>
-
+<div class="content" id="Bottoms"></div>
 <h1 class="white centered underlined">Bottoms</h1>
 <div class="row row-cols-1 row-cols-md-4 g-4"  style="margin:10px;">
 <?php
@@ -140,7 +143,7 @@ echo '</div>';
 }
 ?>
 </div>
-
+<div class="content" id="Music"></div>
 <h1 class="white centered underlined">Music</h1>
 <div class="row row-cols-1 row-cols-md-4 g-4"  style="margin:10px;">
 <?php

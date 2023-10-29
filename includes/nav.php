@@ -51,7 +51,19 @@ $_SESSION['Email']="Logged Out";}
       </ul>
     </div>
     <!-- Page links on right of nav bar -->
-    
+
+    <div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <i class="fas fa-user "></i>
+  </a>
+
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+
     <div class="collapse navbar-collapse position-absolute top-25 end-0 "  id="navbarNav">
       <ul class="navbar-nav " >
         <li class="nav-item " >
@@ -64,17 +76,7 @@ $_SESSION['Email']="Logged Out";}
           <a class="nav-link " href="#" title="Profile" style=" font-size:30px;color:white"><i class="fas fa-user "></i></a>
         </li>
 
-        <div class="dropdown">
-  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-  <i class="fas fa-user "></i>
-  </a>
-
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-</div>
+ 
       
 
 
