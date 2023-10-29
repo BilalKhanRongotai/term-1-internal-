@@ -16,79 +16,65 @@ include_once('includes/connection.php')
         </h2>
 
 <?php
-/*
+
 if (isset($_GET['error'])) {
 if($_GET['error']== "empty_fields"){
     echo '<div class="alert alert-danger" role="alert">
     Fill in all fields
     </div>';
 }
-if($_GET['error']== "invalid_email"){
+if($_GET['error']== "long_name"){
     echo '<div class="alert alert-danger" role="alert">
-    Invalid email
+    Name is too long
     </div>';
 }
-if($_GET['error']== "passwords_does_not_match"){
+if($_GET['error']== "long_price"){
     echo '<div class="alert alert-danger" role="alert">
-    passwords_does_not_match
+    Price is too long
     </div>';
 }
-if($_GET['error']== "password_is_too_long"){
+if($_GET['error']== "long_image"){
     echo '<div class="alert alert-danger" role="alert">
-    password_is_too_long maximum 10
+    Image name is too long
     </div>';
 }
-if($_GET['error']== "password_is_too_short"){
+if($_GET['error']== "long_description"){
     echo '<div class="alert alert-danger" role="alert">
-    password_is_too_short minimum 8
+    Description is too long
     </div>';
 }
-if($_GET['error']== "email_is_in_use"){
-    echo '<div class="alert alert-danger" role="alert">
-    email_is_in_use
-    </div>';
-}if($_GET['error']== "invalid_email"){
-    echo '<div class="alert alert-danger" role="alert">
-    Invalid email
-    </div>';
+
 }
-if($_GET['error']== "empty_fields"){
-    echo '<div class="alert alert-danger" role="alert">
-    Fill in all fields
-    </div>';
-}
-}*/
 ?>
 
 
         <form class="form-control-lg" action="includes/store_add_inc.php" method="POST">
             <div class="form-group row pt-3">
-            <label for="email"class="col-sm-2 col-form-label">Name</label>
+            <label for="Name"class="col-sm-2 col-form-label">Name</label>
             <div class="col-sm-10">
                 <input type="text" name="name" class="form-cotnrol" placeholder="Name">
             </div>
             </div>
             <div class="form-group row pt-4">
-            <label for="price"class="col-sm-2 col-form-label">Price</label>
+            <label for="Price"class="col-sm-2 col-form-label">Price</label>
             <div class="col-sm-10">
                 <input type="float" name="price" class="form-cotnrol" placeholder="Price">
             </div>
             </div>
             <div class="form-group row pt-4">
-            <label for="price"class="col-sm-2 col-form-label">Category</label>
+            <label for="Category"class="col-sm-2 col-form-label">Category</label>
             <div class="col-sm-10">
             <select class="form-control" name="category" id="exampleFormControlSelect1">
                 <option>Shoes</option>
                 <option>Tops</option>
                 <option>Bottoms</option>
-                <option>Vinyl</option>
-                <option>Cds</option>
-                <option>Miscellaneous</option>
+                <option>Music</option>
+                <option>Other</option>
             </select>
             </div>
             </div>
             <div class="form-group row pt-4">
-            <label for="price"class="col-sm-2 col-form-label">Year</label>
+            <label for="Year"class="col-sm-2 col-form-label">Year</label>
             <div class="col-sm-10">
             <select class="form-control" name="year" id="exampleFormControlSelect1">
                 <option>2023</option>
@@ -109,13 +95,13 @@ if($_GET['error']== "empty_fields"){
             </select>
             </div>
             <div class="form-group row pt-4">
-            <label for="price"class="col-sm-2 col-form-label">Image</label>
+            <label for="Image"class="col-sm-2 col-form-label">Image</label>
             <div class="col-sm-10">
                 <input type="file" name="image" class="form-cotnrol" placeholder="Image">
             </div>
             </div>
             <div class="form-group row pt-3">
-            <label for="email"class="col-sm-2 col-form-label">Description</label>
+            <label for="Description"class="col-sm-2 col-form-label">Description</label>
             <div class="col-sm-10">
                 <textarea type="text" name="description" class="form-cotnrol" placeholder="description" style="width:500px; height:300px">
                 

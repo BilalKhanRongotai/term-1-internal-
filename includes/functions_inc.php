@@ -196,3 +196,71 @@ function createItem($conn, $name, $price, $category, $year, $image, $description
     header("Location: ../store_add.php");
     exit();
 }
+
+//Store item error checks
+
+function emptyInputStoreAdd($Name, $Price, $Category, $Year, $Image, $Description){
+    $result = false;
+    
+    
+    //Check fields are empty using built-in functions
+    if(empty($Name)||empty($Price)||empty($Category)||empty($Year)||empty($Image)||empty($Description))
+    {
+        $result = true;}
+    else {
+        $result = false;
+    }
+    return $result;
+    } 
+
+function longname($name){
+    $result = false;
+    $max = 50;
+    $len = strlen($name);
+    if ($len>$max){
+        $result = true;
+
+    } else{
+        $result = false;
+    }
+    return $result;
+}
+
+function longprice($price){
+    $result = false;
+    $max = 15;
+    $len = strlen($price);
+    if ($len>$max){
+        $result = true;
+
+    } else{
+        $result = false;
+    }
+    return $result;
+}
+
+function longimg($image){
+    $result = false;
+    $max = 500;
+    $len = strlen($image);
+    if ($len>$max){
+        $result = true;
+
+    } else{
+        $result = false;
+    }
+    return $result;
+}
+
+function longdesc($description){
+    $result = false;
+    $max = 500;
+    $len = strlen($description);
+    if ($len>$max){
+        $result = true;
+
+    } else{
+        $result = false;
+    }
+    return $result;
+}

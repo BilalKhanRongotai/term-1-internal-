@@ -18,36 +18,26 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     //Validate email
     
     
-    /*if (emptyInputSignup($email, $pwd, $repeat_pwd)!== false){
-        header("Location: ../signup.php?error=empty_fields&email=" . $email . "&pwd=" . $pwd . "&pwd_repeat=" . $repeat_pwd);
+    if (emptyInputStoreAdd($name, $price, $category, $year, $image, $description)!== false){
+        header("Location: ../store_add.php?error=empty_fields");
         exit();
     }
-
-    if (invalidEmail($email)!== false){
-        header("Location: ../signup.php?error=invalid_email");
+    if (longname($name)!== false){
+        header("Location: ../store_add.php?error=long_name");
         exit();
     }
-
-    if(pwdMatch($pwd, $repeat_pwd)!== false)
-    {
-        header("Location: ../signup.php?error=passwords_does_not_match");
+    if (longprice($price)!== false){
+        header("Location: ../store_add.php?error=long_price");
         exit();
     }
-
-    if(longPwd($pwd) !==false){
-        header("Location: ../signup.php?error=password_is_too_long");
+    if (longimg($image)!== false){
+        header("Location: ../store_add.php?error=long_image");
         exit();
     }
-    if(shortPwd($pwd) !==false){
-        header("Location: ../signup.php?error=password_is_too_short");
+    if (longdesc($description)!== false){
+        header("Location: ../store_add.php?error=long_description");
         exit();
     }
-
-    if(emailExists($conn, $email)){
-        header("Location: ../signup.php?error=email_is_in_use");
-        exit();
-    }
-    */
 
 createItem($conn, $name, $price, $category, $year, $image, $description);
 
