@@ -6,7 +6,7 @@ include 'includes/nav.php';
 //include_once 'includes/protect_admin_pages,php';
 include_once('includes/connection.php')
 ?>
-
+<body>
 <div class="container fluid pt-5 pb-5">
     <div class="row">
         <div class="col-sm-3">
@@ -52,7 +52,13 @@ if($_GET['error']== "email_is_in_use"){
 }
 }
 ?>
+<style>    
+.body{
+    text-align: center;
+    color: white;
+}
 
+</style>
 
         <form class="form-control-lg" action="includes/signup_inc.php" method="POST">
             <div class="form-group row pt-3">
@@ -86,7 +92,7 @@ if($_GET['error']== "email_is_in_use"){
         <div class="col-sm-3"></div>
     </div>
 </div>
-
+</body>
 
 
 
