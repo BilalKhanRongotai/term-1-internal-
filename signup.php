@@ -14,7 +14,6 @@ include_once('includes/connection.php')
         <h2>
             Sign Up
         </h2>
-
 <?php
 if (isset($_GET['error'])) {
 if($_GET['error']== "empty_fields"){
@@ -49,11 +48,6 @@ if($_GET['error']== "email_is_in_use"){
 }if($_GET['error']== "invalid_email"){
     echo '<div class="alert alert-danger" role="alert">
     Invalid email
-    </div>';
-}
-if($_GET['error']== "empty_fields"){
-    echo '<div class="alert alert-danger" role="alert">
-    Fill in all fields
     </div>';
 }
 }
