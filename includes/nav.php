@@ -60,6 +60,7 @@ $_SESSION['Email']="Logged Out";}
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" href="signup.php">Signup</a></li>
     <li><a class="dropdown-item" href="login.php">Login</a></li>
+    <li><a class="dropdown-item" href="admin_list.php">Admin List</a></li>
     <li><a class="dropdown-item" href="store_add.php">Shop-Add</a></li>
     <li><a class="dropdown-item" href="control_panel.php">Control Panel</a></li>
     <li><a class="dropdown-item" href="control_panel.php">Logout</a></li>

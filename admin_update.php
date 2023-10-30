@@ -7,8 +7,7 @@ $page_title = "admin_update";
 include 'includes/header.php';
 include 'includes/nav.php';
 
-// Calling Carousel
-include 'includes/carousel.php';
+
 
 // Calling Connection Page
 include_once('includes/connection.php');
@@ -47,21 +46,21 @@ if (isset($_post['update_btn'])){
 
         </div>
         <div class="col-sm-6">
-    <H2>admin update</H2>
+    <H2 style="color: white;">Admin update</H2>
 
     </div>
     <div class="col-sm-6 pt-5 pb-5">
-        <h2>Sign Up</h2>
+        <h2 style="color: white;">Sign Up</h2>
             <form class="form-control-lg" action="signup_inc.php" method="POST">
                 <div class="form-group row pt-4">
-                    <label for="email" class="col-sm-2 col-form-label">E-mail</label>
+                    <label for="email" class="col-sm-2 col-form-label" style="color: white;">E-mail</label>
                     <div class="col-sm-10">
                         <input type="text" name="email" class="form-control" placeholder="Email">
                     </div>
                 
                 </div>
                 <div class="form-group row pt-4">
-                    <label for="password" class="col-sm-2 col-form-label">Password</label>
+                    <label for="password" class="col-sm-2 col-form-label" style="color: white;">Password</label>
                     <div class="col-sm-10">
                         <input type="password" name="pwd" class="form-control" placeholder="Password">
                     </div>

@@ -2,7 +2,7 @@
 //Declare connection variables
 $serverName = "localhost";
 $userName = "root";
-$pwd = "";
+$pwd = "bilal.rongotai";
 $db = "bilalk";
 
 //recives 4 parameters through built in php function
