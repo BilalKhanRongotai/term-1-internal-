@@ -9,51 +9,51 @@ include_once('includes/connection.php')
 
 <h1 style="color: white;  text-align: center;">Wishlist</h1>
 <!-- Cards -->
-<div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="row row-cols-1 row-cols-md-2 g-2"  style="margin:10px;">
+<?php
+if (isset($_SESSION['AdminID'])) {
+$AdminID = $_SESSION['AdminID'];
+$sql = "SELECT ItemID, ID FROM wishlist_tbl WHERE AdminID = $AdminID;";
+$result = $conn->query($sql);
 
-  <div class="col">
-    <div class="card card-left">
-      <img src="image/card1.webp" class="card-img-top" alt="Image could not load">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">...</p>
-        
-      </div>
-    </div>
-  </div>
-  
-  <div class="col">
-    <div class="card card-right">
-      <img src="image/card2.jpg" class="card-img-top" alt="Image could not load">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">...</p>
-      
-      </div>
-    </div>
-  </div>
- 
-  <div class="col">
-    <div class="card card-left">
-      <img src="image/card3.jpg" class="card-img-top" alt="Image could not load">
-      <div class="card-body">
-        <h5 class="card-title">Card Title</h5>
-        <p class="card-text">...</p>
-     
-      </div>
-    </div>
-  </div>
+$item = mysqli_fetch_all($result);
 
-  <div class="col">
-    <div class="card card-right">
-      <img src="image/card4.jpg" class="card-img-top" alt="Image could not load">
-      <div class="card-body">
-        <h5 class="card-title">Cart Title</h5>
-        <p class="card-text">...</p>
- 
-      </div>
-    </div>
-  </div>
+foreach ($item as $item){
+$itemID = $item[0];
+$ID = $item[1];
+
+$sql = "SELECT ItemID, Name,Price,Image FROM store_tbl WHERE ItemID = $itemID;";
+$result = $conn->query($sql);
+
+$item = mysqli_fetch_all($result);
+
+foreach ($item as $item){
+$productid=$item[0];
+$name=$item[1];
+$price=$item[2];
+$image=$item[3];
+
+echo '<div class="col">';
+echo '<div class="card h-100">';
+echo '  <img class="card-img-top" src="image/' . $image . '" alt="Card image cap">';
+echo '  <div class="card-body">';
+echo '    <h5 class="card-title">' . $name . '</h5>';
+echo '    <p class="card-text">$' . $price . '</p>';
+echo '<a style="text-decoration:none;" href="product.php?product=' . $productid . '">View</a>';
+echo '<br>';
+echo '<a style="text-decoration:none;" href="includes/wishlist_remove_inc.php?ID=' . $ID . '">Remove</a>';
+echo '  </div>';
+echo '</div>';
+echo '</div>';
+
+}
+
+}
+
+} else {
+  echo '<p class="white cenered">Please log in to see your wishlist<?P>';
+}
+?>
 </div>
 
 

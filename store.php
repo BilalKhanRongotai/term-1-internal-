@@ -174,6 +174,7 @@ echo '</div>';
 ?>
 </div>
 
+<h1 class="white centered underlined">Other</h1>
 <div class="row row-cols-1 row-cols-md-4 g-4"  style="margin:10px;">
 <?php
 $sql = "SELECT ItemID, Name,Price,Image FROM store_tbl WHERE Category = 'Other';";

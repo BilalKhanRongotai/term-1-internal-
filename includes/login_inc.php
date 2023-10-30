@@ -16,7 +16,8 @@ if(isset($_POST ['login_btn'])) {
     }
   loginUser($conn, $email, $pwd);
   session_start();
-  $_SESSION['Email']=$email;   
+  $_SESSION['Email']=$email;
+  $_SESSION['AdminID']= AdminID($conn, $email);
     //if credentials are invalid redirect to login page
 } else{
     header('Location:../login.php');

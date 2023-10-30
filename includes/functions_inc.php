@@ -183,6 +183,14 @@ else if($checkPwd === true){
 }
 }
 
+// Get AdminID function
+function AdminID ($conn, $email) {
+    $sql = "SELECT AdminID FROM admin_tbl WHERE Email = $email";
+    $result = $conn->query($sql);
+
+    return $result;
+}
+
 // Create store item function
 function createItem($conn, $name, $price, $category, $year, $image, $description){
     $sql = "INSERT INTO store_tbl (Name, Price, Category, Year, Image, Description) VALUES(?,?,?,?,?,?)";
@@ -263,4 +271,19 @@ function longdesc($description){
         $result = false;
     }
     return $result;
+}
+
+
+// Add to the wishlist
+function addWishlist ($conn, $AdminID, $ItemID) {
+    $sql = "INSERT INTO wishlist_tbl (AdminID, ItemID) VALUES(?,?)";
+    $stmt = mysqli_stmt_init($conn);
+    mysqli_stmt_prepare($stmt,$sql);
+    mysqli_stmt_bind_param($stmt, "dd", $AdminID, $ItemID);
+    mysqli_stmt_execute($stmt);
+    //Close the connection
+    mysqli_stmt_close($stmt);
+
+    header("Location: ../wishlist.php");
+    exit();
 }
