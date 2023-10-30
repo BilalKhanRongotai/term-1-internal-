@@ -73,12 +73,7 @@ $description = $info[5];
     
     <h2>$<?php echo $price; ?></h2>
     <p><?php echo $description; ?></p>
- 
-<button style='font-size:24px'>Wishlist <i class='far fa-heart'></i></button>
+
+<a style='font-size:24px; background:black; color:antiquewhite;' href="includes/wishlist_add_inc.php?itemID=<?php echo $_GET["product"] ?>">Wishlist <i class='far fa-heart'></i></a>
   </div>
 </div>
-
-
-
-
-  
