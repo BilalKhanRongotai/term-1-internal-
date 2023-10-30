@@ -27,10 +27,13 @@ include_once ('includes/connection.php')
         }
         ?>
 </div>
-<div class="col-sm-1">
 
 </div>
     </div>
 
 
 </div>
+<h2>Logout</h2>
+<button><a class="dropdown-item" href="control_panel.php">Logout</a></button>
+
+

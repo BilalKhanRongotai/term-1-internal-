@@ -11,9 +11,9 @@ include_once('includes/connection.php')
     <div class="row">
         <div class="col-sm-3">
         <div class="col-sm-6">
-        <h2 style="color: white;">
+        <h3 style="color: white;">
             Store add
-        </h2>
+        </h3>
 <style>
 
 </style>
@@ -52,19 +52,19 @@ if($_GET['error']== "long_description"){
  <div class="centered">
         <form class="form-control-lg" action="includes/store_add_inc.php" method="POST">
             <div class="form-group row pt-3">
-            <label for="Name"class="col-sm-2 col-form-label">Name</label>
+            <label for="Name"class="col-sm-2 col-form-label"style="color: white;">Name</label>
             <div class="col-sm-10">
                 <input type="text" name="name" class="form-cotnrol" placeholder="Name">
             </div>
             </div>
             <div class="form-group row pt-4">
-            <label for="Price"class="col-sm-2 col-form-label">Price</label>
+            <label for="Price"class="col-sm-2 col-form-label"style="color: white;">Price</label>
             <div class="col-sm-10">
                 <input type="float" name="price" class="form-cotnrol" placeholder="Price">
             </div>
             </div>
             <div class="form-group row pt-4">
-            <label for="Category"class="col-sm-2 col-form-label">Category</label>
+            <label for="Category"class="col-sm-2 col-form-label"style="color: white;">Category</label>
             <div class="col-sm-10">
             <select class="form-control" name="category" id="exampleFormControlSelect1">
                 <option>Shoes</option>
@@ -76,7 +76,7 @@ if($_GET['error']== "long_description"){
             </div>
             </div>
             <div class="form-group row pt-4">
-            <label for="Year"class="col-sm-2 col-form-label">Year</label>
+            <label for="Year"class="col-sm-2 col-form-label" style="color: white;">Year</label>
             <div class="col-sm-10">
             <select class="form-control" name="year" id="exampleFormControlSelect1">
                 <option>2023</option>
@@ -97,13 +97,13 @@ if($_GET['error']== "long_description"){
             </select>
             </div>
             <div class="form-group row pt-4">
-            <label for="Image"class="col-sm-2 col-form-label">Image</label>
+            <label for="Image"class="col-sm-2 col-form-label"style="color: white;">Image</label>
             <div class="col-sm-10">
                 <input type="file" name="image" class="form-cotnrol" placeholder="Image">
             </div>
             </div>
             <div class="form-group row pt-3">
-            <label for="Description"class="col-sm-2 col-form-label">Description</label>
+            <label for="Description"class="col-sm-2 col-form-label"style="color: white;">Description</label>
             <div class="col-sm-10">
                 <textarea type="text" name="description" class="form-cotnrol" placeholder="description" style="width:500px; height:300px">
                 

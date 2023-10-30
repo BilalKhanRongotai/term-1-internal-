@@ -58,24 +58,23 @@ $_SESSION['Email']="Logged Out";}
   </a>
 
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><a class="dropdown-item" href="signup.php">Signup</a></li>
+    <li><a class="dropdown-item" href="login.php">Login</a></li>
+    <li><a class="dropdown-item" href="store_add.php">Shop-Add</a></li>
+    <li><a class="dropdown-item" href="control_panel.php">Control Panel</a></li>
+    <li><a class="dropdown-item" href="control_panel.php">Logout</a></li>
+ 
   </ul>
 </div>
 
-    <div class="collapse navbar-collapse position-absolute top-25 end-0 "  id="navbarNav">
+    <div  id="navbarNav">
       <ul class="navbar-nav " >
         <li class="nav-item " >
           <a class="nav-link " href="wishlist.php" title="Wishlist" style=" font-size:30px;color:white"><i class='far fa-heart'></i></a>
         </li>
 
 
-        <li class="nav-item dropdown" >
-          
-          <a class="nav-link " href="#" title="Profile" style=" font-size:30px;color:white"><i class="fas fa-user "></i></a>
-        </li>
-
+      
  
       
 

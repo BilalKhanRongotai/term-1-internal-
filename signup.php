@@ -80,7 +80,7 @@ if($_GET['error']== "email_is_in_use"){
             </div>
            
             <div class="form-group row pt-5">
-            <label for="submit"class="col-sm-2 col-form-label"style="color: white;">Signup</label>
+           
             <div class="col-sm-10">
                 <button type="signup" name="signup_btn" class="form-cotnrol" placeholder="Signup">Signup</button>
             </div>
@@ -92,7 +92,7 @@ if($_GET['error']== "email_is_in_use"){
         <div class="col-sm-3"></div>
     </div>
 </div>
-</body>
+</body> 
 
 
 
