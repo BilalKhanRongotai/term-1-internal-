@@ -1,5 +1,6 @@
 <!-- Call up the header and navbar and set page title-->
 <?php
+session_start();
 $page_title= "Wishlist";
 include 'includes/header.php';
 include 'includes/nav.php';

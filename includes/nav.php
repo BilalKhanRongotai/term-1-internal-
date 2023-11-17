@@ -1,9 +1,3 @@
-<?php
-session_start();
-if (!isset($_SESSION['Email'])){
-$_SESSION['Email']="Logged Out";}
-?>
-
 <!-- Nav Bar -->
 <nav class="navbar navbar-expand-lg bg-dark no-padding z50">
   <div class="container-fluid z50" style="background-color: rgba(0, 0, 0, 0.2);">
@@ -62,7 +56,6 @@ $_SESSION['Email']="Logged Out";}
     <li><a class="dropdown-item" href="login.php">Login</a></li>
     <li><a class="dropdown-item" href="store_add.php">Shop-Add</a></li>
     <li><a class="dropdown-item" href="control_panel.php">Control Panel</a></li>
-    <li><a class="dropdown-item" href="control_panel.php">Logout</a></li>
  
   </ul>
 </div>

@@ -1,23 +1,38 @@
 <?php 
+
+//include_once 'includes/protect_admin_pages,php';
+include_once('includes/connection.php');
+
+
+session_start();
+if (isset($_SESSION['AdminID'])) {
+    $id = $_SESSION['AdminID'];
+    $sql = "SELECT Admin FROM admin_tbl WHERE AdminID = $id;";
+    $result = $conn->query($sql);
+
+    if ($result !== false) {
+        $row = $result->fetch_assoc(); // Fetch a row from the result set
+        if ($row && $row['Admin'] == 1) {
+            // Admin exists and has an 'Admin' value equal to 1
+            // You can add your logic here
+        } else {
+            header("Location: index.php");
+        }
+    } else {
+                    header("Location: index.php");
+    }
+} else {
+    header("Location: store.php");
+}
+
+
+
 $page_title= "Store Add";
 include 'includes/header.php';
 include 'includes/nav.php';
 
-//include_once 'includes/protect_admin_pages,php';
-include_once('includes/connection.php')
-?>
 
-<div class="container fluid pt-5 pb-5">
-    <div class="row">
-        <div class="col-sm-3">
-        <div class="col-sm-6">
-        <h3 style="color: white;">
-            Store add
-        </h3>
-<style>
 
-</style>
-<?php
 
 if (isset($_GET['error'])) {
 if($_GET['error']== "empty_fields"){

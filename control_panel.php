@@ -3,8 +3,7 @@
 //Call protect admin page
 // include_once 'includes/protect_admin_pages.php';
 
-include 'includes/header.php';
-$page_title = "control panel";
+$page_title = "Control Panel";
 
 // calling header and nav pages
 include 'includes/nav.php';
@@ -33,7 +32,7 @@ include_once ('includes/connection.php')
 
 
 </div>
-<h2>Logout</h2>
-<button><a class="dropdown-item" href="control_panel.php">Logout</a></button>
+<h2 class="white">Logout</h2>
+<button><a class="dropdown-item" href="includes/logout_inc.php">Logout</a></button>
 
 
