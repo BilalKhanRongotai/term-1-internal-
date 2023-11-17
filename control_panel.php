@@ -32,7 +32,7 @@ include_once ('includes/connection.php')
 
 
 </div>
-<h2 class="white">Logout</h2>
-<button><a class="dropdown-item" href="includes/logout_inc.php">Logout</a></button>
+<h2 style="color: white;">Logout</h2>
+<button><a class="dropdown-item" href="control_panel.php">Logout</a></button>
 
 

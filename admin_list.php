@@ -2,14 +2,14 @@
 //start session 
  session_start();
 //Declaring variable
-$page_title = "Template";
+$page_title = "Admin List";
 
 //<!-- Calling header page -->
 
-$page_title = "Template";
+$page_title = "Admin List";
 include 'includes/header.php';
 include 'includes/nav.php';
-include 'includes/carousel.php';
+
 include_once('includes/connection.php');
 
 //Create query
@@ -39,25 +39,25 @@ mysqli_close($conn)
 
         <div class="col-sm-1"></div>
         <div class="col-sm-10">
-            <h2>Admin List</h2>
+            <h2 style="color: white;">Admin List</h2>
             <table class="table">
                 <thead>
-                <th>ID</th>
-                <th>Email</th>
-                <th>Password</th>
-                <th>Date Registered</th>
+                <th style="color: white;">ID</th>
+                <th style="color: white;">Email</th>
+                <th style="color: white;">Password</th>
+                <th style="color: white;">Date Registered</th>
                 </thead>
                 <tbody>
                     <?php
                     foreach ($admins as $admin) : ?>
                     <tr>
                         <!--prints out the data-->
-                        <td><?php echo $admin['AdminID']; ?></td>
-                        <td><?php echo $admin['Email']; ?></td>
-                        <td><?php echo $admin['Password']; ?></td>
-                        <td><?php echo $admin['Datereg']; ?></td>
-                        <td><a href= "admin_update.php?adminID<?php echo $admin['AdminID']; ?>">Modify</td>
-                        <td><a herf= "admin_delete.php?adminID<?php echo $admin['Email']; ?>">Delete</td>
+                        <td style="color: white;"><?php echo $admin['AdminID']; ?></td>
+                        <td style="color: white;"><?php echo $admin['Email']; ?></td>
+                        <td style="color: white;"><?php echo $admin['Password']; ?></td>
+                        <td style="color: white;"><?php echo $admin['Datereg']; ?></td>
+                        <td style="color: white;"><a href= "admin_update.php?adminID<?php echo $admin['AdminID']; ?>">Modify</td>
+                        <td style="color: white;"><a herf= "admin_delete.php?adminID<?php echo $admin['Email']; ?>">Delete</td>
                         </tr>
                         </tbody>
                         <!--close forheadloop -->
